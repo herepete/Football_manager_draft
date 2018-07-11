@@ -167,7 +167,7 @@ def teams(gk,defe,mid,ata,createteam,printo):
 	outof=incrmentalnum*10
 	sr=scores(rating)
 	if printo != checkp:
-		print ("Team Characteur (out of 220)",teamchar,sr)
+		print ("Total Team Characteur",teamchar)
 
 	# *2 below didn't seem enough so * by 3
 	rating=int((teamexp/incrmentalnum)*2)
@@ -186,9 +186,17 @@ def teams(gk,defe,mid,ata,createteam,printo):
 	defscore=deffinalscore
 	midscore=midfinalscore
 	atascore=atafinalscore
-	rating=expfinalscore
-	teamchar=charfinalscore
-	
+	erating=expfinalscore
+	eteamchar=charfinalscore
+
+	ourattackscore=int(((deffinalscore*4)+(midfinalscore*8)+(atafinalscore*6)+(teamexp/7)+(teamchar/4))/4.5)
+	ourdefscore=int(((gkfinalscore*4)+(deffinalscore*8)+(midfinalscore*4)+(atafinalscore*2)+(teamexp/7)+(teamchar/4))/4.5)
+
+	print ("Team Game day stats ")
+	print ("#########\n")
+	print ("Match Day Attack Score",ourattackscore)
+	print ("Match Day Defense Score",ourdefscore)
+	print ("")
 	
 	return (gkscore,defscore,midscore,atascore,teamchar,rating)	
 

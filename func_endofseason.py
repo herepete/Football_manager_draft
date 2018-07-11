@@ -2,16 +2,18 @@
 
 import random
 import logging
-logging.basicConfig(filename="skills.log", level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
+#logging.basicConfig(filename="skills.log", level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
 #logging.basicConfig(filename="create_players.log", level=logging.CRITICAL, format="%(asctime)s:%(levelname)s:%(message)s")
 logging.debug("Starting program")
 
 
-def changes(ourteam):
+def changes(ourteam,playoffexppoints):
+	
+#	playoffexppoints=0
 	incrmentalnum=-1
-	veryold=35
-	verygoodchar=8
-	verypoorchar=2
+	veryold=random.randint (32,36)
+	verygoodchar=random.randint (7,9)
+	verypoorchar=random.randint (1,4)
 	changes=""
 	changesp=""
 	changesn=""
@@ -42,10 +44,10 @@ def changes(ourteam):
 			elif charforskills <= verypoorchar:
 				negativepoints=negativepoints+6
 			else:
-				negativepoints=negativepoints+3
+				negativepoints=negativepoints+4
 		elif ageforskills < 21:
 			if charforskills >= verygoodchar:
-				pluspoints=pluspoints+7
+				pluspoints=pluspoints+6
 			elif charforskills <= verypoorchar:
 				pluspoints=pluspoints+1
 			else:
@@ -68,9 +70,17 @@ def changes(ourteam):
 		if (ageforskills <= 24) and (randomnumberlskillincrease >= 3) and (charforskills > 9) :
 			pluspoints=pluspoints+15
 		if (ageforskills <= 24) and (randomnumberlskillincrease >= 3) and (charforskills > 7) :
-			pluspoints=pluspoints+8
+			pluspoints=pluspoints+7
 		if (ageforskills < 24) and (veryrandomnumberlskillincrease > 23) and (charforskills > 7) :
-			pluspoints=pluspoints+10
+			pluspoints=pluspoints+7
+		if ageforskills > 24 and (veryrandomnumberlskillincrease > 21):
+			negativepoints=negativepoints+5
+		if ageforskills > 24 and (veryrandomnumberlskillincrease < 7):
+			negativepoints=negativepoints+3
+
+
+
+
 
 
 
@@ -119,7 +129,7 @@ def changes(ourteam):
 
 
 # insert if winning season...
-			
+
 		
 # upgrade/downgrade skills
 #### based on earlier worked out +- scores
@@ -213,7 +223,7 @@ def changes(ourteam):
 		singlerecord[7]="{:<2}".format(age)
 
 		experience=singlerecord[6]
-		experience='{}' .format (int(experience)+1)
+		experience='{}' .format (int(experience)+playoffexppoints)
 		singlerecord[6]="{:<2}".format(experience)
 
 		

@@ -36,7 +36,7 @@ Game flow
 2 straight into season 1
 3 	play x games 
 4 end of season
-5 	+1 to players /age/experience
+5 	+1 to players /age/experience, if you win the superbowl exp +2 
 	+X to players skill/maxskill based on things like age/characteur/luck 
 	first 11 scout report (to help you pinpoint what needs to be improved)
 		Draft Free agency/first/second/third round 

@@ -1,0 +1,2309 @@
+2018-07-11 14:35:07,045:DEBUG:Starting program
+2018-07-11 14:35:07,045:DEBUG:New game
+2018-07-11 14:35:07,045:DEBUG:   
+2018-07-11 14:35:07,046:DEBUG:Starting program
+2018-07-11 14:35:08,978:DEBUG:New game
+2018-07-11 14:35:08,978:DEBUG:   
+2018-07-11 14:35:08,978:DEBUG:RandomNumber 5
+2018-07-11 14:35:08,979:DEBUG:RandomNumber50 3
+2018-07-11 14:35:08,979:DEBUG:RandomNumber501 9
+2018-07-11 14:35:08,979:DEBUG:RandomNumber1 3
+2018-07-11 14:35:08,979:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:08,979:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 5 14 7 5 131 133
+2018-07-11 14:35:08,979:DEBUG:OurDefScore 24
+2018-07-11 14:35:08,980:DEBUG:OurataScore 24
+2018-07-11 14:35:08,980:DEBUG:OppDefScore 49
+2018-07-11 14:35:08,980:DEBUG:OppAtaScore 43
+2018-07-11 14:35:08,980:DEBUG: GT else -ourcomarescore -25
+2018-07-11 14:35:08,981:DEBUG: else -ourgoals 2
+2018-07-11 14:35:08,981:DEBUG: GT 10 -oppcomarescore 19
+2018-07-11 14:35:08,981:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:35:08,981:DEBUG: Final Score 2
+2018-07-11 14:35:08,981:DEBUG: Final Score 2
+2018-07-11 14:35:09,664:DEBUG:New game
+2018-07-11 14:35:09,664:DEBUG:   
+2018-07-11 14:35:09,665:DEBUG:RandomNumber 6
+2018-07-11 14:35:09,665:DEBUG:RandomNumber50 4
+2018-07-11 14:35:09,665:DEBUG:RandomNumber501 2
+2018-07-11 14:35:09,665:DEBUG:RandomNumber1 4
+2018-07-11 14:35:09,665:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:09,665:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 14 10 7 134 68
+2018-07-11 14:35:09,665:DEBUG:OurDefScore 24
+2018-07-11 14:35:09,665:DEBUG:OurataScore 24
+2018-07-11 14:35:09,665:DEBUG:OppDefScore 52
+2018-07-11 14:35:09,666:DEBUG:OppAtaScore 49
+2018-07-11 14:35:09,666:DEBUG: GT else -ourcomarescore -28
+2018-07-11 14:35:09,666:DEBUG: else -ourgoals 2
+2018-07-11 14:35:09,666:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:35:09,666:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:35:09,666:DEBUG: Final Score 2
+2018-07-11 14:35:09,666:DEBUG: Final Score 2
+2018-07-11 14:35:09,885:DEBUG:New game
+2018-07-11 14:35:09,886:DEBUG:   
+2018-07-11 14:35:09,886:DEBUG:RandomNumber 6
+2018-07-11 14:35:09,886:DEBUG:RandomNumber50 4
+2018-07-11 14:35:09,886:DEBUG:RandomNumber501 3
+2018-07-11 14:35:09,886:DEBUG:RandomNumber1 10
+2018-07-11 14:35:09,886:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:09,886:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 8 5 6 10 91 78
+2018-07-11 14:35:09,887:DEBUG:OurDefScore 24
+2018-07-11 14:35:09,887:DEBUG:OurataScore 24
+2018-07-11 14:35:09,887:DEBUG:OppDefScore 33
+2018-07-11 14:35:09,887:DEBUG:OppAtaScore 35
+2018-07-11 14:35:09,887:DEBUG: GT else -ourcomarescore -9
+2018-07-11 14:35:09,887:DEBUG: else -ourgoals 2
+2018-07-11 14:35:09,887:DEBUG: GT 10 -oppcomarescore 11
+2018-07-11 14:35:09,887:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:35:09,887:DEBUG: Final Score 2
+2018-07-11 14:35:09,887:DEBUG: Final Score 2
+2018-07-11 14:35:10,071:DEBUG:New game
+2018-07-11 14:35:10,072:DEBUG:   
+2018-07-11 14:35:10,072:DEBUG:RandomNumber 1
+2018-07-11 14:35:10,072:DEBUG:RandomNumber50 9
+2018-07-11 14:35:10,072:DEBUG:RandomNumber501 9
+2018-07-11 14:35:10,072:DEBUG:RandomNumber1 8
+2018-07-11 14:35:10,072:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,072:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 8 15 10 84 136
+2018-07-11 14:35:10,072:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,073:DEBUG:OurataScore 24
+2018-07-11 14:35:10,073:DEBUG:OppDefScore 52
+2018-07-11 14:35:10,073:DEBUG:OppAtaScore 56
+2018-07-11 14:35:10,073:DEBUG: GT else -ourcomarescore -28
+2018-07-11 14:35:10,073:DEBUG: else -ourgoals 0
+2018-07-11 14:35:10,073:DEBUG: GT 25 -oppcomarescore 32
+2018-07-11 14:35:10,073:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:10,073:DEBUG: Final Score 0
+2018-07-11 14:35:10,073:DEBUG: Final Score 3
+2018-07-11 14:35:10,237:DEBUG:New game
+2018-07-11 14:35:10,238:DEBUG:   
+2018-07-11 14:35:10,238:DEBUG:RandomNumber 7
+2018-07-11 14:35:10,238:DEBUG:RandomNumber50 2
+2018-07-11 14:35:10,238:DEBUG:RandomNumber501 8
+2018-07-11 14:35:10,238:DEBUG:RandomNumber1 10
+2018-07-11 14:35:10,238:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,238:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 13 6 14 86 141
+2018-07-11 14:35:10,238:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,239:DEBUG:OurataScore 24
+2018-07-11 14:35:10,239:DEBUG:OppDefScore 55
+2018-07-11 14:35:10,239:DEBUG:OppAtaScore 50
+2018-07-11 14:35:10,239:DEBUG: GT else -ourcomarescore -31
+2018-07-11 14:35:10,239:DEBUG: else -ourgoals 2
+2018-07-11 14:35:10,239:DEBUG: GT 25 -oppcomarescore 26
+2018-07-11 14:35:10,239:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:10,239:DEBUG: Final Score 2
+2018-07-11 14:35:10,240:DEBUG: Final Score 3
+2018-07-11 14:35:10,413:DEBUG:New game
+2018-07-11 14:35:10,414:DEBUG:   
+2018-07-11 14:35:10,414:DEBUG:RandomNumber 2
+2018-07-11 14:35:10,414:DEBUG:RandomNumber50 7
+2018-07-11 14:35:10,414:DEBUG:RandomNumber501 1
+2018-07-11 14:35:10,414:DEBUG:RandomNumber1 5
+2018-07-11 14:35:10,414:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,414:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 13 15 13 111 128
+2018-07-11 14:35:10,414:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,415:DEBUG:OurataScore 24
+2018-07-11 14:35:10,415:DEBUG:OppDefScore 62
+2018-07-11 14:35:10,415:DEBUG:OppAtaScore 65
+2018-07-11 14:35:10,415:DEBUG: GT else -ourcomarescore -38
+2018-07-11 14:35:10,415:DEBUG: else -ourgoals 1
+2018-07-11 14:35:10,415:DEBUG: GT 25 -oppcomarescore 41
+2018-07-11 14:35:10,415:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:10,415:DEBUG: Final Score 1
+2018-07-11 14:35:10,415:DEBUG: Final Score 3
+2018-07-11 14:35:10,596:DEBUG:New game
+2018-07-11 14:35:10,596:DEBUG:   
+2018-07-11 14:35:10,596:DEBUG:RandomNumber 7
+2018-07-11 14:35:10,596:DEBUG:RandomNumber50 10
+2018-07-11 14:35:10,597:DEBUG:RandomNumber501 5
+2018-07-11 14:35:10,597:DEBUG:RandomNumber1 5
+2018-07-11 14:35:10,597:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,597:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 11 14 10 129 143
+2018-07-11 14:35:10,597:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,597:DEBUG:OurataScore 24
+2018-07-11 14:35:10,597:DEBUG:OppDefScore 57
+2018-07-11 14:35:10,598:DEBUG:OppAtaScore 59
+2018-07-11 14:35:10,598:DEBUG: GT else -ourcomarescore -33
+2018-07-11 14:35:10,598:DEBUG: else -ourgoals 0
+2018-07-11 14:35:10,598:DEBUG: GT 25 -oppcomarescore 35
+2018-07-11 14:35:10,598:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:10,598:DEBUG: Final Score 0
+2018-07-11 14:35:10,598:DEBUG: Final Score 3
+2018-07-11 14:35:10,770:DEBUG:New game
+2018-07-11 14:35:10,771:DEBUG:   
+2018-07-11 14:35:10,771:DEBUG:RandomNumber 10
+2018-07-11 14:35:10,771:DEBUG:RandomNumber50 9
+2018-07-11 14:35:10,771:DEBUG:RandomNumber501 10
+2018-07-11 14:35:10,771:DEBUG:RandomNumber1 7
+2018-07-11 14:35:10,771:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,771:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 14 12 15 106 142
+2018-07-11 14:35:10,772:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,772:DEBUG:OurataScore 24
+2018-07-11 14:35:10,772:DEBUG:OppDefScore 65
+2018-07-11 14:35:10,772:DEBUG:OppAtaScore 64
+2018-07-11 14:35:10,772:DEBUG: GT else -ourcomarescore -41
+2018-07-11 14:35:10,772:DEBUG: else -ourgoals 0
+2018-07-11 14:35:10,772:DEBUG: GT 25 -oppcomarescore 40
+2018-07-11 14:35:10,772:DEBUG: GT 25 -oppgoals 0
+2018-07-11 14:35:10,772:DEBUG: Final Score 1
+2018-07-11 14:35:10,773:DEBUG: Final Score 0
+2018-07-11 14:35:10,944:DEBUG:New game
+2018-07-11 14:35:10,945:DEBUG:   
+2018-07-11 14:35:10,945:DEBUG:RandomNumber 3
+2018-07-11 14:35:10,945:DEBUG:RandomNumber50 6
+2018-07-11 14:35:10,945:DEBUG:RandomNumber501 9
+2018-07-11 14:35:10,945:DEBUG:RandomNumber1 3
+2018-07-11 14:35:10,945:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:10,946:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 10 14 15 104 100
+2018-07-11 14:35:10,946:DEBUG:OurDefScore 24
+2018-07-11 14:35:10,946:DEBUG:OurataScore 24
+2018-07-11 14:35:10,946:DEBUG:OppDefScore 58
+2018-07-11 14:35:10,946:DEBUG:OppAtaScore 62
+2018-07-11 14:35:10,946:DEBUG: GT else -ourcomarescore -34
+2018-07-11 14:35:10,946:DEBUG: else -ourgoals 1
+2018-07-11 14:35:10,946:DEBUG: GT 25 -oppcomarescore 38
+2018-07-11 14:35:10,946:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:10,946:DEBUG: Final Score 1
+2018-07-11 14:35:10,947:DEBUG: Final Score 3
+2018-07-11 14:35:11,111:DEBUG:New game
+2018-07-11 14:35:11,112:DEBUG:   
+2018-07-11 14:35:11,112:DEBUG:RandomNumber 2
+2018-07-11 14:35:11,112:DEBUG:RandomNumber50 4
+2018-07-11 14:35:11,112:DEBUG:RandomNumber501 3
+2018-07-11 14:35:11,112:DEBUG:RandomNumber1 8
+2018-07-11 14:35:11,112:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:11,112:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 13 13 14 140 137
+2018-07-11 14:35:11,113:DEBUG:OurDefScore 24
+2018-07-11 14:35:11,113:DEBUG:OurataScore 24
+2018-07-11 14:35:11,113:DEBUG:OppDefScore 69
+2018-07-11 14:35:11,113:DEBUG:OppAtaScore 65
+2018-07-11 14:35:11,113:DEBUG: GT else -ourcomarescore -45
+2018-07-11 14:35:11,113:DEBUG: else -ourgoals 2
+2018-07-11 14:35:11,113:DEBUG: GT 25 -oppcomarescore 41
+2018-07-11 14:35:11,114:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:11,114:DEBUG: Final Score 2
+2018-07-11 14:35:11,114:DEBUG: Final Score 3
+2018-07-11 14:35:11,274:DEBUG:New game
+2018-07-11 14:35:11,274:DEBUG:   
+2018-07-11 14:35:11,274:DEBUG:RandomNumber 5
+2018-07-11 14:35:11,274:DEBUG:RandomNumber50 10
+2018-07-11 14:35:11,274:DEBUG:RandomNumber501 10
+2018-07-11 14:35:11,274:DEBUG:RandomNumber1 4
+2018-07-11 14:35:11,274:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:11,275:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 18 14 14 188 135
+2018-07-11 14:35:11,275:DEBUG:OurDefScore 24
+2018-07-11 14:35:11,275:DEBUG:OurataScore 24
+2018-07-11 14:35:11,275:DEBUG:OppDefScore 76
+2018-07-11 14:35:11,275:DEBUG:OppAtaScore 74
+2018-07-11 14:35:11,275:DEBUG: GT else -ourcomarescore -52
+2018-07-11 14:35:11,275:DEBUG: else -ourgoals 0
+2018-07-11 14:35:11,276:DEBUG: GT 25 -oppcomarescore 50
+2018-07-11 14:35:11,276:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:35:11,276:DEBUG: Final Score 0
+2018-07-11 14:35:11,276:DEBUG: Final Score 3
+2018-07-11 14:35:11,469:DEBUG:New game
+2018-07-11 14:35:11,470:DEBUG:   
+2018-07-11 14:35:11,470:DEBUG:RandomNumber 8
+2018-07-11 14:35:11,470:DEBUG:RandomNumber50 7
+2018-07-11 14:35:11,470:DEBUG:RandomNumber501 10
+2018-07-11 14:35:11,470:DEBUG:RandomNumber1 7
+2018-07-11 14:35:11,470:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:11,471:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 18 16 13 171 172
+2018-07-11 14:35:11,471:DEBUG:OurDefScore 24
+2018-07-11 14:35:11,471:DEBUG:OurataScore 24
+2018-07-11 14:35:11,471:DEBUG:OppDefScore 80
+2018-07-11 14:35:11,471:DEBUG:OppAtaScore 76
+2018-07-11 14:35:11,471:DEBUG: GT else -ourcomarescore -56
+2018-07-11 14:35:11,471:DEBUG: else -ourgoals 1
+2018-07-11 14:35:11,471:DEBUG: GT 50 -oppcomarescore 52
+2018-07-11 14:35:11,471:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:35:11,472:DEBUG: Final Score 1
+2018-07-11 14:35:11,472:DEBUG: Final Score 2
+2018-07-11 14:35:11,642:DEBUG:New game
+2018-07-11 14:35:11,643:DEBUG:   
+2018-07-11 14:35:11,643:DEBUG:RandomNumber 8
+2018-07-11 14:35:11,643:DEBUG:RandomNumber50 2
+2018-07-11 14:35:11,643:DEBUG:RandomNumber501 10
+2018-07-11 14:35:11,643:DEBUG:RandomNumber1 9
+2018-07-11 14:35:11,643:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:11,643:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 19 18 18 17 170 189
+2018-07-11 14:35:11,644:DEBUG:OurDefScore 24
+2018-07-11 14:35:11,644:DEBUG:OurataScore 24
+2018-07-11 14:35:11,644:DEBUG:OppDefScore 87
+2018-07-11 14:35:11,644:DEBUG:OppAtaScore 86
+2018-07-11 14:35:11,644:DEBUG: GT else -ourcomarescore -63
+2018-07-11 14:35:11,644:DEBUG: else -ourgoals 2
+2018-07-11 14:35:11,644:DEBUG: GT 50 -oppcomarescore 62
+2018-07-11 14:35:11,645:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:35:11,645:DEBUG: Final Score 2
+2018-07-11 14:35:11,645:DEBUG: Final Score 2
+2018-07-11 14:35:11,962:DEBUG:New game
+2018-07-11 14:35:11,962:DEBUG:   
+2018-07-11 14:35:11,962:DEBUG:RandomNumber 10
+2018-07-11 14:35:11,962:DEBUG:RandomNumber50 3
+2018-07-11 14:35:11,962:DEBUG:RandomNumber501 3
+2018-07-11 14:35:11,962:DEBUG:RandomNumber1 2
+2018-07-11 14:35:11,963:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:11,963:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 18 20 17 106 174
+2018-07-11 14:35:11,963:DEBUG:OurDefScore 24
+2018-07-11 14:35:11,963:DEBUG:OurataScore 24
+2018-07-11 14:35:11,963:DEBUG:OppDefScore 83
+2018-07-11 14:35:11,963:DEBUG:OppAtaScore 85
+2018-07-11 14:35:11,963:DEBUG: GT else -ourcomarescore -59
+2018-07-11 14:35:11,963:DEBUG: else -ourgoals 2
+2018-07-11 14:35:11,964:DEBUG: GT 50 -oppcomarescore 61
+2018-07-11 14:35:11,964:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:35:11,964:DEBUG: Final Score 0
+2018-07-11 14:35:11,964:DEBUG: Final Score 0
+2018-07-11 14:35:12,324:DEBUG:New game
+2018-07-11 14:35:12,324:DEBUG:   
+2018-07-11 14:35:12,324:DEBUG:RandomNumber 1
+2018-07-11 14:35:12,324:DEBUG:RandomNumber50 6
+2018-07-11 14:35:12,325:DEBUG:RandomNumber501 8
+2018-07-11 14:35:12,325:DEBUG:RandomNumber1 10
+2018-07-11 14:35:12,325:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:12,325:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 19 19 19 130 189
+2018-07-11 14:35:12,325:DEBUG:OurDefScore 24
+2018-07-11 14:35:12,325:DEBUG:OurataScore 24
+2018-07-11 14:35:12,325:DEBUG:OppDefScore 87
+2018-07-11 14:35:12,325:DEBUG:OppAtaScore 89
+2018-07-11 14:35:12,326:DEBUG: GT else -ourcomarescore -63
+2018-07-11 14:35:12,326:DEBUG: else -ourgoals 1
+2018-07-11 14:35:12,326:DEBUG: GT 50 -oppcomarescore 65
+2018-07-11 14:35:12,326:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:35:12,326:DEBUG: Final Score 1
+2018-07-11 14:35:12,326:DEBUG: Final Score 5
+2018-07-11 14:35:25,742:DEBUG:New game
+2018-07-11 14:35:25,743:DEBUG:   
+2018-07-11 14:35:25,743:DEBUG:RandomNumber 6
+2018-07-11 14:35:25,743:DEBUG:RandomNumber50 10
+2018-07-11 14:35:25,743:DEBUG:RandomNumber501 4
+2018-07-11 14:35:25,743:DEBUG:RandomNumber1 9
+2018-07-11 14:35:25,743:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 118 29
+2018-07-11 14:35:25,743:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 20 17 19 192 198
+2018-07-11 14:35:25,743:DEBUG:OurDefScore 24
+2018-07-11 14:35:25,743:DEBUG:OurataScore 24
+2018-07-11 14:35:25,744:DEBUG:OppDefScore 89
+2018-07-11 14:35:25,744:DEBUG:OppAtaScore 90
+2018-07-11 14:35:25,744:DEBUG: GT else -ourcomarescore -65
+2018-07-11 14:35:25,744:DEBUG: else -ourgoals 0
+2018-07-11 14:35:25,744:DEBUG: GT 50 -oppcomarescore 66
+2018-07-11 14:35:25,744:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:35:25,744:DEBUG: Final Score 0
+2018-07-11 14:35:25,744:DEBUG: Final Score 3
+2018-07-11 14:35:27,725:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,725:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,725:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,725:DEBUG:skill change negative number7
+2018-07-11 14:35:27,725:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill change current skill4
+2018-07-11 14:35:27,726:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch-count
+2018-07-11 14:35:27,726:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,727:DEBUG:skill change negative number7
+2018-07-11 14:35:27,727:DEBUG:skill branch-count
+2018-07-11 14:35:27,727:DEBUG:skill branch-count
+2018-07-11 14:35:27,727:DEBUG:skill branch-count
+2018-07-11 14:35:27,727:DEBUG:skill change current skill5
+2018-07-11 14:35:27,727:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,727:DEBUG:skill branch-count
+2018-07-11 14:35:27,727:DEBUG:skill change current skill4
+2018-07-11 14:35:27,727:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,728:DEBUG:skill branch-count
+2018-07-11 14:35:27,728:DEBUG:skill change current skill3
+2018-07-11 14:35:27,728:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,728:DEBUG:skill branch-count
+2018-07-11 14:35:27,728:DEBUG:skill branch-count
+2018-07-11 14:35:27,728:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,728:DEBUG:skill change negative number5
+2018-07-11 14:35:27,728:DEBUG:skill branch-count
+2018-07-11 14:35:27,728:DEBUG:skill change current skill4
+2018-07-11 14:35:27,729:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,729:DEBUG:skill branch-count
+2018-07-11 14:35:27,729:DEBUG:skill change current skill3
+2018-07-11 14:35:27,729:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,729:DEBUG:skill branch-count
+2018-07-11 14:35:27,729:DEBUG:skill change current skill2
+2018-07-11 14:35:27,729:DEBUG:skill branch-count
+2018-07-11 14:35:27,729:DEBUG:skill change current skill2
+2018-07-11 14:35:27,729:DEBUG:skill branch-count
+2018-07-11 14:35:27,729:DEBUG:skill change current skill2
+2018-07-11 14:35:27,730:DEBUG:skill change nameSeth     Shaw      
+2018-07-11 14:35:27,730:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,730:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,730:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,730:DEBUG:skill change negative number6
+2018-07-11 14:35:27,730:DEBUG:skill branch-count
+2018-07-11 14:35:27,730:DEBUG:skill change current skill5
+2018-07-11 14:35:27,730:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,730:DEBUG:skill branch-count
+2018-07-11 14:35:27,730:DEBUG:skill branch-count
+2018-07-11 14:35:27,731:DEBUG:skill change current skill4
+2018-07-11 14:35:27,731:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,731:DEBUG:skill branch-count
+2018-07-11 14:35:27,731:DEBUG:skill branch-count
+2018-07-11 14:35:27,731:DEBUG:skill change current skill3
+2018-07-11 14:35:27,731:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,731:DEBUG:skill branch-count
+2018-07-11 14:35:27,731:DEBUG:skill change current skill2
+2018-07-11 14:35:27,731:DEBUG:skill change nameRawiri   Stewart   
+2018-07-11 14:35:27,732:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,732:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,732:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,732:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,732:DEBUG:skill change negative number3
+2018-07-11 14:35:27,732:DEBUG:skill branch-count
+2018-07-11 14:35:27,732:DEBUG:skill change current skill4
+2018-07-11 14:35:27,732:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,732:DEBUG:skill branch-count
+2018-07-11 14:35:27,732:DEBUG:skill change current skill3
+2018-07-11 14:35:27,733:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,733:DEBUG:skill branch-count
+2018-07-11 14:35:27,733:DEBUG:skill change current skill2
+2018-07-11 14:35:27,733:DEBUG:skill change nameLukas    Price     
+2018-07-11 14:35:27,733:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,733:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,733:DEBUG:skill change negative number2
+2018-07-11 14:35:27,733:DEBUG:skill branch-count
+2018-07-11 14:35:27,733:DEBUG:skill branch-count
+2018-07-11 14:35:27,734:DEBUG:skill change current skill5
+2018-07-11 14:35:27,734:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,734:DEBUG:skill change namePhil     Oneil     
+2018-07-11 14:35:27,734:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,734:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,734:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,734:DEBUG:skill change negative number9
+2018-07-11 14:35:27,734:DEBUG:skill branch-count
+2018-07-11 14:35:27,734:DEBUG:skill branch-count
+2018-07-11 14:35:27,734:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill change current skill5
+2018-07-11 14:35:27,735:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,735:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill change current skill4
+2018-07-11 14:35:27,735:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,735:DEBUG:skill branch-count
+2018-07-11 14:35:27,735:DEBUG:skill change current skill3
+2018-07-11 14:35:27,736:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,736:DEBUG:skill branch-count
+2018-07-11 14:35:27,736:DEBUG:skill change current skill2
+2018-07-11 14:35:27,736:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,736:DEBUG:skill change negative number2
+2018-07-11 14:35:27,736:DEBUG:skill branch-count
+2018-07-11 14:35:27,736:DEBUG:skill change current skill3
+2018-07-11 14:35:27,736:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:35:27,736:DEBUG:skill branch-count
+2018-07-11 14:35:27,736:DEBUG:skill change current skill2
+2018-07-11 14:35:27,737:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:35:27,737:DEBUG:skill change negative number3
+2018-07-11 14:35:27,737:DEBUG:skill branch-count
+2018-07-11 14:35:27,737:DEBUG:skill branch-count
+2018-07-11 14:35:27,737:DEBUG:skill branch-count
+2018-07-11 14:35:27,737:DEBUG:skill change nameSven     Stansf    
+2018-07-11 14:35:27,737:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,737:DEBUG:skill change nameJude     Pritchard 
+2018-07-11 14:35:27,738:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,738:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,738:DEBUG:skill ==0 branch 
+2018-07-11 14:35:27,738:DEBUG:skill ==0 branch 
+2018-07-11 14:46:30,374:DEBUG:Starting program
+2018-07-11 14:46:30,374:DEBUG:New game
+2018-07-11 14:46:30,375:DEBUG:   
+2018-07-11 14:46:30,376:DEBUG:Starting program
+2018-07-11 14:46:31,819:DEBUG:New game
+2018-07-11 14:46:31,820:DEBUG:   
+2018-07-11 14:46:31,820:DEBUG:RandomNumber 1
+2018-07-11 14:46:31,820:DEBUG:RandomNumber50 5
+2018-07-11 14:46:31,820:DEBUG:RandomNumber501 10
+2018-07-11 14:46:31,820:DEBUG:RandomNumber1 7
+2018-07-11 14:46:31,820:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:31,820:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 9 8 11 130 125
+2018-07-11 14:46:31,820:DEBUG:OurDefScore 23
+2018-07-11 14:46:31,821:DEBUG:OurataScore 24
+2018-07-11 14:46:31,821:DEBUG:OppDefScore 48
+2018-07-11 14:46:31,821:DEBUG:OppAtaScore 48
+2018-07-11 14:46:31,821:DEBUG: GT else -ourcomarescore -24
+2018-07-11 14:46:31,821:DEBUG: else -ourgoals 1
+2018-07-11 14:46:31,821:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:46:31,821:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:46:31,821:DEBUG: Final Score 1
+2018-07-11 14:46:31,821:DEBUG: Final Score 3
+2018-07-11 14:46:32,119:DEBUG:New game
+2018-07-11 14:46:32,120:DEBUG:   
+2018-07-11 14:46:32,120:DEBUG:RandomNumber 6
+2018-07-11 14:46:32,120:DEBUG:RandomNumber50 1
+2018-07-11 14:46:32,120:DEBUG:RandomNumber501 4
+2018-07-11 14:46:32,120:DEBUG:RandomNumber1 4
+2018-07-11 14:46:32,120:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:32,120:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 14 6 6 88 81
+2018-07-11 14:46:32,120:DEBUG:OurDefScore 23
+2018-07-11 14:46:32,121:DEBUG:OurataScore 24
+2018-07-11 14:46:32,121:DEBUG:OppDefScore 50
+2018-07-11 14:46:32,121:DEBUG:OppAtaScore 38
+2018-07-11 14:46:32,121:DEBUG: GT else -ourcomarescore -26
+2018-07-11 14:46:32,121:DEBUG: else -ourgoals 3
+2018-07-11 14:46:32,121:DEBUG: GT 10 -oppcomarescore 15
+2018-07-11 14:46:32,121:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:46:32,121:DEBUG: Final Score 3
+2018-07-11 14:46:32,121:DEBUG: Final Score 2
+2018-07-11 14:46:32,366:DEBUG:New game
+2018-07-11 14:46:32,367:DEBUG:   
+2018-07-11 14:46:32,367:DEBUG:RandomNumber 9
+2018-07-11 14:46:32,367:DEBUG:RandomNumber50 2
+2018-07-11 14:46:32,367:DEBUG:RandomNumber501 3
+2018-07-11 14:46:32,368:DEBUG:RandomNumber1 10
+2018-07-11 14:46:32,368:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:32,368:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 13 10 7 147 64
+2018-07-11 14:46:32,368:DEBUG:OurDefScore 23
+2018-07-11 14:46:32,368:DEBUG:OurataScore 24
+2018-07-11 14:46:32,369:DEBUG:OppDefScore 56
+2018-07-11 14:46:32,369:DEBUG:OppAtaScore 48
+2018-07-11 14:46:32,369:DEBUG: GT else -ourcomarescore -32
+2018-07-11 14:46:32,369:DEBUG: else -ourgoals 2
+2018-07-11 14:46:32,370:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:46:32,370:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:46:32,370:DEBUG: Final Score 0
+2018-07-11 14:46:32,370:DEBUG: Final Score 0
+2018-07-11 14:46:32,563:DEBUG:New game
+2018-07-11 14:46:32,563:DEBUG:   
+2018-07-11 14:46:32,563:DEBUG:RandomNumber 7
+2018-07-11 14:46:32,564:DEBUG:RandomNumber50 10
+2018-07-11 14:46:32,564:DEBUG:RandomNumber501 2
+2018-07-11 14:46:32,564:DEBUG:RandomNumber1 1
+2018-07-11 14:46:32,564:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:32,564:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 10 14 13 50 110
+2018-07-11 14:46:32,564:DEBUG:OurDefScore 23
+2018-07-11 14:46:32,564:DEBUG:OurataScore 24
+2018-07-11 14:46:32,564:DEBUG:OppDefScore 48
+2018-07-11 14:46:32,564:DEBUG:OppAtaScore 57
+2018-07-11 14:46:32,565:DEBUG: GT else -ourcomarescore -24
+2018-07-11 14:46:32,565:DEBUG: else -ourgoals 0
+2018-07-11 14:46:32,565:DEBUG: GT 25 -oppcomarescore 34
+2018-07-11 14:46:32,565:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:46:32,565:DEBUG: Final Score 0
+2018-07-11 14:46:32,565:DEBUG: Final Score 3
+2018-07-11 14:46:32,751:DEBUG:New game
+2018-07-11 14:46:32,751:DEBUG:   
+2018-07-11 14:46:32,752:DEBUG:RandomNumber 5
+2018-07-11 14:46:32,752:DEBUG:RandomNumber50 10
+2018-07-11 14:46:32,752:DEBUG:RandomNumber501 4
+2018-07-11 14:46:32,752:DEBUG:RandomNumber1 9
+2018-07-11 14:46:32,752:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:32,752:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 14 5 10 142 148
+2018-07-11 14:46:32,752:DEBUG:OurDefScore 23
+2018-07-11 14:46:32,752:DEBUG:OurataScore 24
+2018-07-11 14:46:32,752:DEBUG:OppDefScore 52
+2018-07-11 14:46:32,753:DEBUG:OppAtaScore 47
+2018-07-11 14:46:32,753:DEBUG: GT else -ourcomarescore -28
+2018-07-11 14:46:32,753:DEBUG: else -ourgoals 0
+2018-07-11 14:46:32,753:DEBUG: GT 10 -oppcomarescore 24
+2018-07-11 14:46:32,753:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:46:32,753:DEBUG: Final Score 0
+2018-07-11 14:46:32,753:DEBUG: Final Score 2
+2018-07-11 14:46:32,942:DEBUG:New game
+2018-07-11 14:46:32,942:DEBUG:   
+2018-07-11 14:46:32,942:DEBUG:RandomNumber 4
+2018-07-11 14:46:32,942:DEBUG:RandomNumber50 7
+2018-07-11 14:46:32,942:DEBUG:RandomNumber501 10
+2018-07-11 14:46:32,942:DEBUG:RandomNumber1 7
+2018-07-11 14:46:32,943:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:32,943:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 15 11 11 137 109
+2018-07-11 14:46:32,943:DEBUG:OurDefScore 23
+2018-07-11 14:46:32,943:DEBUG:OurataScore 24
+2018-07-11 14:46:32,943:DEBUG:OppDefScore 61
+2018-07-11 14:46:32,943:DEBUG:OppAtaScore 58
+2018-07-11 14:46:32,943:DEBUG: GT else -ourcomarescore -37
+2018-07-11 14:46:32,943:DEBUG: else -ourgoals 1
+2018-07-11 14:46:32,943:DEBUG: GT 25 -oppcomarescore 35
+2018-07-11 14:46:32,944:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:46:32,944:DEBUG: Final Score 1
+2018-07-11 14:46:32,944:DEBUG: Final Score 3
+2018-07-11 14:46:33,125:DEBUG:New game
+2018-07-11 14:46:33,125:DEBUG:   
+2018-07-11 14:46:33,126:DEBUG:RandomNumber 1
+2018-07-11 14:46:33,126:DEBUG:RandomNumber50 6
+2018-07-11 14:46:33,126:DEBUG:RandomNumber501 2
+2018-07-11 14:46:33,126:DEBUG:RandomNumber1 2
+2018-07-11 14:46:33,126:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:33,126:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 11 10 13 115 105
+2018-07-11 14:46:33,126:DEBUG:OurDefScore 23
+2018-07-11 14:46:33,126:DEBUG:OurataScore 24
+2018-07-11 14:46:33,126:DEBUG:OppDefScore 57
+2018-07-11 14:46:33,127:DEBUG:OppAtaScore 54
+2018-07-11 14:46:33,127:DEBUG: GT else -ourcomarescore -33
+2018-07-11 14:46:33,127:DEBUG: else -ourgoals 1
+2018-07-11 14:46:33,127:DEBUG: GT 25 -oppcomarescore 31
+2018-07-11 14:46:33,127:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:46:33,127:DEBUG: Final Score 1
+2018-07-11 14:46:33,127:DEBUG: Final Score 3
+2018-07-11 14:46:33,312:DEBUG:New game
+2018-07-11 14:46:33,312:DEBUG:   
+2018-07-11 14:46:33,313:DEBUG:RandomNumber 4
+2018-07-11 14:46:33,313:DEBUG:RandomNumber50 9
+2018-07-11 14:46:33,313:DEBUG:RandomNumber501 10
+2018-07-11 14:46:33,313:DEBUG:RandomNumber1 4
+2018-07-11 14:46:33,313:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:33,313:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 14 10 10 136 108
+2018-07-11 14:46:33,313:DEBUG:OurDefScore 23
+2018-07-11 14:46:33,313:DEBUG:OurataScore 24
+2018-07-11 14:46:33,314:DEBUG:OppDefScore 59
+2018-07-11 14:46:33,314:DEBUG:OppAtaScore 54
+2018-07-11 14:46:33,314:DEBUG: GT else -ourcomarescore -35
+2018-07-11 14:46:33,314:DEBUG: else -ourgoals 0
+2018-07-11 14:46:33,314:DEBUG: GT 25 -oppcomarescore 31
+2018-07-11 14:46:33,314:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:46:33,314:DEBUG: Final Score 0
+2018-07-11 14:46:33,314:DEBUG: Final Score 3
+2018-07-11 14:46:33,498:DEBUG:New game
+2018-07-11 14:46:33,498:DEBUG:   
+2018-07-11 14:46:33,498:DEBUG:RandomNumber 5
+2018-07-11 14:46:33,498:DEBUG:RandomNumber50 6
+2018-07-11 14:46:33,499:DEBUG:RandomNumber501 4
+2018-07-11 14:46:33,499:DEBUG:RandomNumber1 2
+2018-07-11 14:46:33,499:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:33,499:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 14 12 13 141 124
+2018-07-11 14:46:33,499:DEBUG:OurDefScore 23
+2018-07-11 14:46:33,499:DEBUG:OurataScore 24
+2018-07-11 14:46:33,499:DEBUG:OppDefScore 66
+2018-07-11 14:46:33,499:DEBUG:OppAtaScore 62
+2018-07-11 14:46:33,500:DEBUG: GT else -ourcomarescore -42
+2018-07-11 14:46:33,500:DEBUG: else -ourgoals 1
+2018-07-11 14:46:33,500:DEBUG: GT 25 -oppcomarescore 39
+2018-07-11 14:46:33,500:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:46:33,500:DEBUG: Final Score 1
+2018-07-11 14:46:33,500:DEBUG: Final Score 3
+2018-07-11 14:46:33,688:DEBUG:New game
+2018-07-11 14:46:33,688:DEBUG:   
+2018-07-11 14:46:33,689:DEBUG:RandomNumber 1
+2018-07-11 14:46:33,689:DEBUG:RandomNumber50 2
+2018-07-11 14:46:33,689:DEBUG:RandomNumber501 5
+2018-07-11 14:46:33,689:DEBUG:RandomNumber1 5
+2018-07-11 14:46:33,689:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:33,689:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 18 17 14 188 126
+2018-07-11 14:46:33,689:DEBUG:OurDefScore 23
+2018-07-11 14:46:33,689:DEBUG:OurataScore 24
+2018-07-11 14:46:33,690:DEBUG:OppDefScore 81
+2018-07-11 14:46:33,690:DEBUG:OppAtaScore 79
+2018-07-11 14:46:33,690:DEBUG: GT else -ourcomarescore -57
+2018-07-11 14:46:33,690:DEBUG: else -ourgoals 2
+2018-07-11 14:46:33,690:DEBUG: GT 50 -oppcomarescore 56
+2018-07-11 14:46:33,690:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:46:33,690:DEBUG: Final Score 2
+2018-07-11 14:46:33,690:DEBUG: Final Score 5
+2018-07-11 14:46:33,889:DEBUG:New game
+2018-07-11 14:46:33,890:DEBUG:   
+2018-07-11 14:46:33,890:DEBUG:RandomNumber 9
+2018-07-11 14:46:33,890:DEBUG:RandomNumber50 9
+2018-07-11 14:46:33,890:DEBUG:RandomNumber501 6
+2018-07-11 14:46:33,890:DEBUG:RandomNumber1 10
+2018-07-11 14:46:33,890:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:33,890:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 13 18 15 172 145
+2018-07-11 14:46:33,891:DEBUG:OurDefScore 23
+2018-07-11 14:46:33,891:DEBUG:OurataScore 24
+2018-07-11 14:46:33,891:DEBUG:OppDefScore 75
+2018-07-11 14:46:33,891:DEBUG:OppAtaScore 77
+2018-07-11 14:46:33,891:DEBUG: GT else -ourcomarescore -51
+2018-07-11 14:46:33,891:DEBUG: else -ourgoals 0
+2018-07-11 14:46:33,891:DEBUG: GT 50 -oppcomarescore 54
+2018-07-11 14:46:33,891:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:46:33,891:DEBUG: Final Score 1
+2018-07-11 14:46:33,892:DEBUG: Final Score 0
+2018-07-11 14:46:34,092:DEBUG:New game
+2018-07-11 14:46:34,093:DEBUG:   
+2018-07-11 14:46:34,093:DEBUG:RandomNumber 9
+2018-07-11 14:46:34,093:DEBUG:RandomNumber50 4
+2018-07-11 14:46:34,093:DEBUG:RandomNumber501 1
+2018-07-11 14:46:34,093:DEBUG:RandomNumber1 1
+2018-07-11 14:46:34,093:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:34,093:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 13 13 13 198 192
+2018-07-11 14:46:34,093:DEBUG:OurDefScore 23
+2018-07-11 14:46:34,093:DEBUG:OurataScore 24
+2018-07-11 14:46:34,094:DEBUG:OppDefScore 69
+2018-07-11 14:46:34,094:DEBUG:OppAtaScore 69
+2018-07-11 14:46:34,094:DEBUG: GT else -ourcomarescore -45
+2018-07-11 14:46:34,094:DEBUG: else -ourgoals 2
+2018-07-11 14:46:34,094:DEBUG: GT 25 -oppcomarescore 46
+2018-07-11 14:46:34,094:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:46:34,094:DEBUG: Final Score 2
+2018-07-11 14:46:34,094:DEBUG: Final Score 2
+2018-07-11 14:46:34,349:DEBUG:New game
+2018-07-11 14:46:34,350:DEBUG:   
+2018-07-11 14:46:34,350:DEBUG:RandomNumber 6
+2018-07-11 14:46:34,350:DEBUG:RandomNumber50 5
+2018-07-11 14:46:34,350:DEBUG:RandomNumber501 3
+2018-07-11 14:46:34,350:DEBUG:RandomNumber1 9
+2018-07-11 14:46:34,350:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:34,350:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 15 16 19 185 187
+2018-07-11 14:46:34,350:DEBUG:OurDefScore 23
+2018-07-11 14:46:34,350:DEBUG:OurataScore 24
+2018-07-11 14:46:34,351:DEBUG:OppDefScore 81
+2018-07-11 14:46:34,351:DEBUG:OppAtaScore 83
+2018-07-11 14:46:34,351:DEBUG: GT else -ourcomarescore -57
+2018-07-11 14:46:34,351:DEBUG: else -ourgoals 1
+2018-07-11 14:46:34,351:DEBUG: GT 50 -oppcomarescore 60
+2018-07-11 14:46:34,351:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:46:34,351:DEBUG: Final Score 1
+2018-07-11 14:46:34,351:DEBUG: Final Score 3
+2018-07-11 14:46:34,621:DEBUG:New game
+2018-07-11 14:46:34,622:DEBUG:   
+2018-07-11 14:46:34,622:DEBUG:RandomNumber 1
+2018-07-11 14:46:34,622:DEBUG:RandomNumber50 10
+2018-07-11 14:46:34,622:DEBUG:RandomNumber501 2
+2018-07-11 14:46:34,622:DEBUG:RandomNumber1 4
+2018-07-11 14:46:34,622:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:34,622:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 20 19 20 16 119 157
+2018-07-11 14:46:34,622:DEBUG:OurDefScore 23
+2018-07-11 14:46:34,623:DEBUG:OurataScore 24
+2018-07-11 14:46:34,623:DEBUG:OppDefScore 88
+2018-07-11 14:46:34,623:DEBUG:OppAtaScore 85
+2018-07-11 14:46:34,623:DEBUG: GT else -ourcomarescore -64
+2018-07-11 14:46:34,623:DEBUG: else -ourgoals 0
+2018-07-11 14:46:34,623:DEBUG: GT 50 -oppcomarescore 62
+2018-07-11 14:46:34,623:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:46:34,623:DEBUG: Final Score 0
+2018-07-11 14:46:34,623:DEBUG: Final Score 5
+2018-07-11 14:46:34,967:DEBUG:New game
+2018-07-11 14:46:34,968:DEBUG:   
+2018-07-11 14:46:34,968:DEBUG:RandomNumber 6
+2018-07-11 14:46:34,968:DEBUG:RandomNumber50 6
+2018-07-11 14:46:34,968:DEBUG:RandomNumber501 8
+2018-07-11 14:46:34,968:DEBUG:RandomNumber1 7
+2018-07-11 14:46:34,968:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:34,968:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 16 18 18 20 133 181
+2018-07-11 14:46:34,968:DEBUG:OurDefScore 23
+2018-07-11 14:46:34,968:DEBUG:OurataScore 24
+2018-07-11 14:46:34,969:DEBUG:OppDefScore 84
+2018-07-11 14:46:34,969:DEBUG:OppAtaScore 87
+2018-07-11 14:46:34,969:DEBUG: GT else -ourcomarescore -60
+2018-07-11 14:46:34,969:DEBUG: else -ourgoals 1
+2018-07-11 14:46:34,969:DEBUG: GT 50 -oppcomarescore 64
+2018-07-11 14:46:34,969:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:46:34,969:DEBUG: Final Score 1
+2018-07-11 14:46:34,969:DEBUG: Final Score 3
+2018-07-11 14:46:35,613:DEBUG:New game
+2018-07-11 14:46:35,613:DEBUG:   
+2018-07-11 14:46:35,613:DEBUG:RandomNumber 5
+2018-07-11 14:46:35,613:DEBUG:RandomNumber50 10
+2018-07-11 14:46:35,614:DEBUG:RandomNumber501 6
+2018-07-11 14:46:35,614:DEBUG:RandomNumber1 4
+2018-07-11 14:46:35,614:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 115 29
+2018-07-11 14:46:35,614:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 16 18 17 17 198 191
+2018-07-11 14:46:35,614:DEBUG:OurDefScore 23
+2018-07-11 14:46:35,614:DEBUG:OurataScore 24
+2018-07-11 14:46:35,614:DEBUG:OppDefScore 85
+2018-07-11 14:46:35,615:DEBUG:OppAtaScore 85
+2018-07-11 14:46:35,615:DEBUG: GT else -ourcomarescore -61
+2018-07-11 14:46:35,615:DEBUG: else -ourgoals 0
+2018-07-11 14:46:35,615:DEBUG: GT 50 -oppcomarescore 62
+2018-07-11 14:46:35,615:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:46:35,615:DEBUG: Final Score 0
+2018-07-11 14:46:35,615:DEBUG: Final Score 3
+2018-07-11 14:48:34,522:DEBUG:Starting program
+2018-07-11 14:48:34,522:DEBUG:New game
+2018-07-11 14:48:34,523:DEBUG:   
+2018-07-11 14:48:34,523:DEBUG:Starting program
+2018-07-11 14:48:35,245:DEBUG:New game
+2018-07-11 14:48:35,245:DEBUG:   
+2018-07-11 14:48:35,245:DEBUG:RandomNumber 8
+2018-07-11 14:48:35,245:DEBUG:RandomNumber50 3
+2018-07-11 14:48:35,245:DEBUG:RandomNumber501 7
+2018-07-11 14:48:35,245:DEBUG:RandomNumber1 3
+2018-07-11 14:48:35,246:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:35,246:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 5 15 8 51 90
+2018-07-11 14:48:35,246:DEBUG:OurDefScore 22
+2018-07-11 14:48:35,246:DEBUG:OurataScore 24
+2018-07-11 14:48:35,246:DEBUG:OppDefScore 42
+2018-07-11 14:48:35,246:DEBUG:OppAtaScore 47
+2018-07-11 14:48:35,246:DEBUG: GT else -ourcomarescore -18
+2018-07-11 14:48:35,246:DEBUG: else -ourgoals 2
+2018-07-11 14:48:35,246:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:48:35,247:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:48:35,247:DEBUG: Final Score 0
+2018-07-11 14:48:35,247:DEBUG: Final Score 0
+2018-07-11 14:48:35,415:DEBUG:New game
+2018-07-11 14:48:35,415:DEBUG:   
+2018-07-11 14:48:35,415:DEBUG:RandomNumber 9
+2018-07-11 14:48:35,415:DEBUG:RandomNumber50 3
+2018-07-11 14:48:35,416:DEBUG:RandomNumber501 3
+2018-07-11 14:48:35,416:DEBUG:RandomNumber1 9
+2018-07-11 14:48:35,416:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:35,416:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 8 7 15 5 122 136
+2018-07-11 14:48:35,416:DEBUG:OurDefScore 22
+2018-07-11 14:48:35,416:DEBUG:OurataScore 24
+2018-07-11 14:48:35,416:DEBUG:OppDefScore 46
+2018-07-11 14:48:35,416:DEBUG:OppAtaScore 50
+2018-07-11 14:48:35,416:DEBUG: GT else -ourcomarescore -22
+2018-07-11 14:48:35,416:DEBUG: else -ourgoals 2
+2018-07-11 14:48:35,417:DEBUG: GT 25 -oppcomarescore 28
+2018-07-11 14:48:35,417:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:48:35,417:DEBUG: Final Score 2
+2018-07-11 14:48:35,417:DEBUG: Final Score 2
+2018-07-11 14:48:35,612:DEBUG:New game
+2018-07-11 14:48:35,612:DEBUG:   
+2018-07-11 14:48:35,612:DEBUG:RandomNumber 8
+2018-07-11 14:48:35,613:DEBUG:RandomNumber50 9
+2018-07-11 14:48:35,613:DEBUG:RandomNumber501 10
+2018-07-11 14:48:35,613:DEBUG:RandomNumber1 9
+2018-07-11 14:48:35,613:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:35,613:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 8 6 12 6 144 130
+2018-07-11 14:48:35,614:DEBUG:OurDefScore 22
+2018-07-11 14:48:35,614:DEBUG:OurataScore 24
+2018-07-11 14:48:35,614:DEBUG:OppDefScore 43
+2018-07-11 14:48:35,614:DEBUG:OppAtaScore 46
+2018-07-11 14:48:35,614:DEBUG: GT else -ourcomarescore -19
+2018-07-11 14:48:35,615:DEBUG: else -ourgoals 0
+2018-07-11 14:48:35,615:DEBUG: GT 10 -oppcomarescore 24
+2018-07-11 14:48:35,615:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:48:35,615:DEBUG: Final Score 1
+2018-07-11 14:48:35,615:DEBUG: Final Score 0
+2018-07-11 14:48:35,799:DEBUG:New game
+2018-07-11 14:48:35,800:DEBUG:   
+2018-07-11 14:48:35,800:DEBUG:RandomNumber 9
+2018-07-11 14:48:35,800:DEBUG:RandomNumber50 3
+2018-07-11 14:48:35,800:DEBUG:RandomNumber501 7
+2018-07-11 14:48:35,800:DEBUG:RandomNumber1 4
+2018-07-11 14:48:35,800:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:35,800:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 11 12 11 118 117
+2018-07-11 14:48:35,801:DEBUG:OurDefScore 22
+2018-07-11 14:48:35,801:DEBUG:OurataScore 24
+2018-07-11 14:48:35,801:DEBUG:OppDefScore 56
+2018-07-11 14:48:35,801:DEBUG:OppAtaScore 56
+2018-07-11 14:48:35,801:DEBUG: GT else -ourcomarescore -32
+2018-07-11 14:48:35,801:DEBUG: else -ourgoals 2
+2018-07-11 14:48:35,801:DEBUG: GT 25 -oppcomarescore 34
+2018-07-11 14:48:35,801:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:48:35,801:DEBUG: Final Score 2
+2018-07-11 14:48:35,801:DEBUG: Final Score 2
+2018-07-11 14:48:35,990:DEBUG:New game
+2018-07-11 14:48:35,991:DEBUG:   
+2018-07-11 14:48:35,991:DEBUG:RandomNumber 9
+2018-07-11 14:48:35,991:DEBUG:RandomNumber50 8
+2018-07-11 14:48:35,991:DEBUG:RandomNumber501 10
+2018-07-11 14:48:35,991:DEBUG:RandomNumber1 4
+2018-07-11 14:48:35,991:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:35,991:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 12 8 5 119 85
+2018-07-11 14:48:35,991:DEBUG:OurDefScore 22
+2018-07-11 14:48:35,991:DEBUG:OurataScore 24
+2018-07-11 14:48:35,992:DEBUG:OppDefScore 48
+2018-07-11 14:48:35,992:DEBUG:OppAtaScore 40
+2018-07-11 14:48:35,992:DEBUG: GT else -ourcomarescore -24
+2018-07-11 14:48:35,992:DEBUG: else -ourgoals 0
+2018-07-11 14:48:35,992:DEBUG: GT 10 -oppcomarescore 18
+2018-07-11 14:48:35,992:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:48:35,992:DEBUG: Final Score 1
+2018-07-11 14:48:35,992:DEBUG: Final Score 0
+2018-07-11 14:48:36,162:DEBUG:New game
+2018-07-11 14:48:36,163:DEBUG:   
+2018-07-11 14:48:36,163:DEBUG:RandomNumber 1
+2018-07-11 14:48:36,163:DEBUG:RandomNumber50 1
+2018-07-11 14:48:36,163:DEBUG:RandomNumber501 1
+2018-07-11 14:48:36,163:DEBUG:RandomNumber1 9
+2018-07-11 14:48:36,164:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:36,164:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 14 13 13 121 125
+2018-07-11 14:48:36,164:DEBUG:OurDefScore 22
+2018-07-11 14:48:36,164:DEBUG:OurataScore 24
+2018-07-11 14:48:36,165:DEBUG:OppDefScore 64
+2018-07-11 14:48:36,165:DEBUG:OppAtaScore 63
+2018-07-11 14:48:36,165:DEBUG: GT else -ourcomarescore -40
+2018-07-11 14:48:36,165:DEBUG: else -ourgoals 3
+2018-07-11 14:48:36,165:DEBUG: GT 25 -oppcomarescore 41
+2018-07-11 14:48:36,166:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:36,166:DEBUG: Final Score 3
+2018-07-11 14:48:36,166:DEBUG: Final Score 3
+2018-07-11 14:48:36,344:DEBUG:New game
+2018-07-11 14:48:36,345:DEBUG:   
+2018-07-11 14:48:36,345:DEBUG:RandomNumber 5
+2018-07-11 14:48:36,345:DEBUG:RandomNumber50 4
+2018-07-11 14:48:36,345:DEBUG:RandomNumber501 1
+2018-07-11 14:48:36,345:DEBUG:RandomNumber1 7
+2018-07-11 14:48:36,345:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:36,345:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 12 12 12 150 136
+2018-07-11 14:48:36,346:DEBUG:OurDefScore 22
+2018-07-11 14:48:36,346:DEBUG:OurataScore 24
+2018-07-11 14:48:36,346:DEBUG:OppDefScore 63
+2018-07-11 14:48:36,346:DEBUG:OppAtaScore 60
+2018-07-11 14:48:36,346:DEBUG: GT else -ourcomarescore -39
+2018-07-11 14:48:36,346:DEBUG: else -ourgoals 2
+2018-07-11 14:48:36,346:DEBUG: GT 25 -oppcomarescore 38
+2018-07-11 14:48:36,346:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:36,346:DEBUG: Final Score 2
+2018-07-11 14:48:36,347:DEBUG: Final Score 3
+2018-07-11 14:48:36,519:DEBUG:New game
+2018-07-11 14:48:36,520:DEBUG:   
+2018-07-11 14:48:36,520:DEBUG:RandomNumber 4
+2018-07-11 14:48:36,520:DEBUG:RandomNumber50 4
+2018-07-11 14:48:36,520:DEBUG:RandomNumber501 1
+2018-07-11 14:48:36,520:DEBUG:RandomNumber1 10
+2018-07-11 14:48:36,520:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:36,520:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 15 11 11 136 119
+2018-07-11 14:48:36,520:DEBUG:OurDefScore 22
+2018-07-11 14:48:36,521:DEBUG:OurataScore 24
+2018-07-11 14:48:36,521:DEBUG:OppDefScore 62
+2018-07-11 14:48:36,521:DEBUG:OppAtaScore 58
+2018-07-11 14:48:36,521:DEBUG: GT else -ourcomarescore -38
+2018-07-11 14:48:36,521:DEBUG: else -ourgoals 2
+2018-07-11 14:48:36,521:DEBUG: GT 25 -oppcomarescore 36
+2018-07-11 14:48:36,521:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:36,521:DEBUG: Final Score 2
+2018-07-11 14:48:36,522:DEBUG: Final Score 3
+2018-07-11 14:48:36,716:DEBUG:New game
+2018-07-11 14:48:36,717:DEBUG:   
+2018-07-11 14:48:36,717:DEBUG:RandomNumber 5
+2018-07-11 14:48:36,717:DEBUG:RandomNumber50 10
+2018-07-11 14:48:36,717:DEBUG:RandomNumber501 8
+2018-07-11 14:48:36,717:DEBUG:RandomNumber1 2
+2018-07-11 14:48:36,717:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:36,717:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 11 13 10 121 128
+2018-07-11 14:48:36,717:DEBUG:OurDefScore 22
+2018-07-11 14:48:36,718:DEBUG:OurataScore 24
+2018-07-11 14:48:36,718:DEBUG:OppDefScore 57
+2018-07-11 14:48:36,718:DEBUG:OppAtaScore 57
+2018-07-11 14:48:36,718:DEBUG: GT else -ourcomarescore -33
+2018-07-11 14:48:36,718:DEBUG: else -ourgoals 0
+2018-07-11 14:48:36,718:DEBUG: GT 25 -oppcomarescore 35
+2018-07-11 14:48:36,718:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:36,718:DEBUG: Final Score 0
+2018-07-11 14:48:36,718:DEBUG: Final Score 3
+2018-07-11 14:48:36,916:DEBUG:New game
+2018-07-11 14:48:36,916:DEBUG:   
+2018-07-11 14:48:36,917:DEBUG:RandomNumber 10
+2018-07-11 14:48:36,917:DEBUG:RandomNumber50 4
+2018-07-11 14:48:36,917:DEBUG:RandomNumber501 2
+2018-07-11 14:48:36,917:DEBUG:RandomNumber1 7
+2018-07-11 14:48:36,917:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:36,917:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 14 13 13 171 173
+2018-07-11 14:48:36,917:DEBUG:OurDefScore 22
+2018-07-11 14:48:36,917:DEBUG:OurataScore 24
+2018-07-11 14:48:36,917:DEBUG:OppDefScore 68
+2018-07-11 14:48:36,918:DEBUG:OppAtaScore 67
+2018-07-11 14:48:36,918:DEBUG: GT else -ourcomarescore -44
+2018-07-11 14:48:36,918:DEBUG: else -ourgoals 2
+2018-07-11 14:48:36,918:DEBUG: GT 25 -oppcomarescore 45
+2018-07-11 14:48:36,918:DEBUG: GT 25 -oppgoals 0
+2018-07-11 14:48:36,918:DEBUG: Final Score 0
+2018-07-11 14:48:36,918:DEBUG: Final Score 0
+2018-07-11 14:48:37,107:DEBUG:New game
+2018-07-11 14:48:37,108:DEBUG:   
+2018-07-11 14:48:37,108:DEBUG:RandomNumber 9
+2018-07-11 14:48:37,108:DEBUG:RandomNumber50 7
+2018-07-11 14:48:37,108:DEBUG:RandomNumber501 9
+2018-07-11 14:48:37,108:DEBUG:RandomNumber1 1
+2018-07-11 14:48:37,108:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:37,108:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 13 15 17 197 157
+2018-07-11 14:48:37,109:DEBUG:OurDefScore 22
+2018-07-11 14:48:37,109:DEBUG:OurataScore 24
+2018-07-11 14:48:37,109:DEBUG:OppDefScore 73
+2018-07-11 14:48:37,109:DEBUG:OppAtaScore 76
+2018-07-11 14:48:37,109:DEBUG: GT else -ourcomarescore -49
+2018-07-11 14:48:37,109:DEBUG: else -ourgoals 1
+2018-07-11 14:48:37,109:DEBUG: GT 50 -oppcomarescore 54
+2018-07-11 14:48:37,109:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:48:37,109:DEBUG: Final Score 1
+2018-07-11 14:48:37,110:DEBUG: Final Score 0
+2018-07-11 14:48:37,481:DEBUG:New game
+2018-07-11 14:48:37,481:DEBUG:   
+2018-07-11 14:48:37,481:DEBUG:RandomNumber 8
+2018-07-11 14:48:37,481:DEBUG:RandomNumber50 2
+2018-07-11 14:48:37,481:DEBUG:RandomNumber501 8
+2018-07-11 14:48:37,482:DEBUG:RandomNumber1 7
+2018-07-11 14:48:37,482:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:37,482:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 17 15 15 191 189
+2018-07-11 14:48:37,482:DEBUG:OurDefScore 22
+2018-07-11 14:48:37,482:DEBUG:OurataScore 24
+2018-07-11 14:48:37,482:DEBUG:OppDefScore 80
+2018-07-11 14:48:37,482:DEBUG:OppAtaScore 78
+2018-07-11 14:48:37,482:DEBUG: GT else -ourcomarescore -56
+2018-07-11 14:48:37,482:DEBUG: else -ourgoals 2
+2018-07-11 14:48:37,483:DEBUG: GT 50 -oppcomarescore 56
+2018-07-11 14:48:37,483:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:48:37,483:DEBUG: Final Score 2
+2018-07-11 14:48:37,483:DEBUG: Final Score 2
+2018-07-11 14:48:37,818:DEBUG:New game
+2018-07-11 14:48:37,819:DEBUG:   
+2018-07-11 14:48:37,819:DEBUG:RandomNumber 1
+2018-07-11 14:48:37,819:DEBUG:RandomNumber50 3
+2018-07-11 14:48:37,819:DEBUG:RandomNumber501 9
+2018-07-11 14:48:37,819:DEBUG:RandomNumber1 2
+2018-07-11 14:48:37,819:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:37,819:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 17 16 19 179 152
+2018-07-11 14:48:37,820:DEBUG:OurDefScore 22
+2018-07-11 14:48:37,820:DEBUG:OurataScore 24
+2018-07-11 14:48:37,820:DEBUG:OppDefScore 83
+2018-07-11 14:48:37,820:DEBUG:OppAtaScore 83
+2018-07-11 14:48:37,820:DEBUG: GT else -ourcomarescore -59
+2018-07-11 14:48:37,820:DEBUG: else -ourgoals 2
+2018-07-11 14:48:37,820:DEBUG: GT 50 -oppcomarescore 61
+2018-07-11 14:48:37,820:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:48:37,820:DEBUG: Final Score 2
+2018-07-11 14:48:37,821:DEBUG: Final Score 5
+2018-07-11 14:48:38,180:DEBUG:New game
+2018-07-11 14:48:38,181:DEBUG:   
+2018-07-11 14:48:38,181:DEBUG:RandomNumber 8
+2018-07-11 14:48:38,181:DEBUG:RandomNumber50 4
+2018-07-11 14:48:38,181:DEBUG:RandomNumber501 1
+2018-07-11 14:48:38,181:DEBUG:RandomNumber1 2
+2018-07-11 14:48:38,181:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:38,182:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 19 20 17 112 182
+2018-07-11 14:48:38,182:DEBUG:OurDefScore 22
+2018-07-11 14:48:38,182:DEBUG:OurataScore 24
+2018-07-11 14:48:38,182:DEBUG:OppDefScore 84
+2018-07-11 14:48:38,182:DEBUG:OppAtaScore 87
+2018-07-11 14:48:38,182:DEBUG: GT else -ourcomarescore -60
+2018-07-11 14:48:38,182:DEBUG: else -ourgoals 2
+2018-07-11 14:48:38,182:DEBUG: GT 50 -oppcomarescore 65
+2018-07-11 14:48:38,183:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:48:38,183:DEBUG: Final Score 2
+2018-07-11 14:48:38,183:DEBUG: Final Score 2
+2018-07-11 14:48:38,593:DEBUG:New game
+2018-07-11 14:48:38,593:DEBUG:   
+2018-07-11 14:48:38,594:DEBUG:RandomNumber 3
+2018-07-11 14:48:38,594:DEBUG:RandomNumber50 7
+2018-07-11 14:48:38,594:DEBUG:RandomNumber501 9
+2018-07-11 14:48:38,594:DEBUG:RandomNumber1 4
+2018-07-11 14:48:38,594:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:38,594:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 18 17 17 124 151
+2018-07-11 14:48:38,594:DEBUG:OurDefScore 22
+2018-07-11 14:48:38,594:DEBUG:OurataScore 24
+2018-07-11 14:48:38,594:DEBUG:OppDefScore 82
+2018-07-11 14:48:38,595:DEBUG:OppAtaScore 80
+2018-07-11 14:48:38,595:DEBUG: GT else -ourcomarescore -58
+2018-07-11 14:48:38,595:DEBUG: else -ourgoals 1
+2018-07-11 14:48:38,595:DEBUG: GT 50 -oppcomarescore 58
+2018-07-11 14:48:38,595:DEBUG: GT 50 -oppgoals 4
+2018-07-11 14:48:38,595:DEBUG: Final Score 1
+2018-07-11 14:48:38,596:DEBUG: Final Score 4
+2018-07-11 14:48:38,942:DEBUG:New game
+2018-07-11 14:48:38,943:DEBUG:   
+2018-07-11 14:48:38,943:DEBUG:RandomNumber 9
+2018-07-11 14:48:38,943:DEBUG:RandomNumber50 10
+2018-07-11 14:48:38,943:DEBUG:RandomNumber501 2
+2018-07-11 14:48:38,943:DEBUG:RandomNumber1 10
+2018-07-11 14:48:38,943:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 3 4 4 5 104 28
+2018-07-11 14:48:38,943:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 19 20 15 189 181
+2018-07-11 14:48:38,943:DEBUG:OurDefScore 22
+2018-07-11 14:48:38,943:DEBUG:OurataScore 24
+2018-07-11 14:48:38,944:DEBUG:OppDefScore 87
+2018-07-11 14:48:38,944:DEBUG:OppAtaScore 88
+2018-07-11 14:48:38,944:DEBUG: GT else -ourcomarescore -63
+2018-07-11 14:48:38,944:DEBUG: else -ourgoals 0
+2018-07-11 14:48:38,944:DEBUG: GT 50 -oppcomarescore 66
+2018-07-11 14:48:38,944:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:48:38,944:DEBUG: Final Score 1
+2018-07-11 14:48:38,944:DEBUG: Final Score 0
+2018-07-11 14:48:54,419:DEBUG:Starting program
+2018-07-11 14:48:54,420:DEBUG:New game
+2018-07-11 14:48:54,420:DEBUG:   
+2018-07-11 14:48:54,421:DEBUG:Starting program
+2018-07-11 14:48:54,814:DEBUG:New game
+2018-07-11 14:48:54,814:DEBUG:   
+2018-07-11 14:48:54,814:DEBUG:RandomNumber 6
+2018-07-11 14:48:54,814:DEBUG:RandomNumber50 10
+2018-07-11 14:48:54,814:DEBUG:RandomNumber501 3
+2018-07-11 14:48:54,814:DEBUG:RandomNumber1 9
+2018-07-11 14:48:54,814:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:54,815:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 6 12 13 6 122 76
+2018-07-11 14:48:54,815:DEBUG:OurDefScore 24
+2018-07-11 14:48:54,815:DEBUG:OurataScore 25
+2018-07-11 14:48:54,815:DEBUG:OppDefScore 50
+2018-07-11 14:48:54,815:DEBUG:OppAtaScore 50
+2018-07-11 14:48:54,815:DEBUG: GT else -ourcomarescore -25
+2018-07-11 14:48:54,815:DEBUG: else -ourgoals 0
+2018-07-11 14:48:54,815:DEBUG: GT 25 -oppcomarescore 26
+2018-07-11 14:48:54,816:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:54,816:DEBUG: Final Score 0
+2018-07-11 14:48:54,816:DEBUG: Final Score 3
+2018-07-11 14:48:55,016:DEBUG:New game
+2018-07-11 14:48:55,017:DEBUG:   
+2018-07-11 14:48:55,017:DEBUG:RandomNumber 5
+2018-07-11 14:48:55,017:DEBUG:RandomNumber50 3
+2018-07-11 14:48:55,017:DEBUG:RandomNumber501 9
+2018-07-11 14:48:55,017:DEBUG:RandomNumber1 7
+2018-07-11 14:48:55,017:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,017:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 14 7 13 103 137
+2018-07-11 14:48:55,017:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,017:DEBUG:OurataScore 25
+2018-07-11 14:48:55,018:DEBUG:OppDefScore 57
+2018-07-11 14:48:55,018:DEBUG:OppAtaScore 52
+2018-07-11 14:48:55,018:DEBUG: GT else -ourcomarescore -32
+2018-07-11 14:48:55,018:DEBUG: else -ourgoals 2
+2018-07-11 14:48:55,018:DEBUG: GT 25 -oppcomarescore 28
+2018-07-11 14:48:55,018:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,018:DEBUG: Final Score 2
+2018-07-11 14:48:55,018:DEBUG: Final Score 3
+2018-07-11 14:48:55,178:DEBUG:New game
+2018-07-11 14:48:55,179:DEBUG:   
+2018-07-11 14:48:55,179:DEBUG:RandomNumber 4
+2018-07-11 14:48:55,179:DEBUG:RandomNumber50 2
+2018-07-11 14:48:55,179:DEBUG:RandomNumber501 10
+2018-07-11 14:48:55,179:DEBUG:RandomNumber1 8
+2018-07-11 14:48:55,179:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,180:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 12 15 10 76 73
+2018-07-11 14:48:55,180:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,180:DEBUG:OurataScore 25
+2018-07-11 14:48:55,180:DEBUG:OppDefScore 54
+2018-07-11 14:48:55,180:DEBUG:OppAtaScore 57
+2018-07-11 14:48:55,180:DEBUG: GT else -ourcomarescore -29
+2018-07-11 14:48:55,180:DEBUG: else -ourgoals 2
+2018-07-11 14:48:55,180:DEBUG: GT 25 -oppcomarescore 33
+2018-07-11 14:48:55,181:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,181:DEBUG: Final Score 2
+2018-07-11 14:48:55,181:DEBUG: Final Score 3
+2018-07-11 14:48:55,677:DEBUG:New game
+2018-07-11 14:48:55,678:DEBUG:   
+2018-07-11 14:48:55,678:DEBUG:RandomNumber 8
+2018-07-11 14:48:55,678:DEBUG:RandomNumber50 2
+2018-07-11 14:48:55,678:DEBUG:RandomNumber501 3
+2018-07-11 14:48:55,678:DEBUG:RandomNumber1 2
+2018-07-11 14:48:55,678:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,679:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 6 8 10 10 118 111
+2018-07-11 14:48:55,679:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,679:DEBUG:OurataScore 25
+2018-07-11 14:48:55,679:DEBUG:OppDefScore 42
+2018-07-11 14:48:55,679:DEBUG:OppAtaScore 48
+2018-07-11 14:48:55,679:DEBUG: GT else -ourcomarescore -17
+2018-07-11 14:48:55,679:DEBUG: else -ourgoals 2
+2018-07-11 14:48:55,679:DEBUG: GT 10 -oppcomarescore 24
+2018-07-11 14:48:55,680:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:48:55,680:DEBUG: Final Score 0
+2018-07-11 14:48:55,680:DEBUG: Final Score 0
+2018-07-11 14:48:55,711:DEBUG:New game
+2018-07-11 14:48:55,711:DEBUG:   
+2018-07-11 14:48:55,711:DEBUG:RandomNumber 2
+2018-07-11 14:48:55,711:DEBUG:RandomNumber50 5
+2018-07-11 14:48:55,711:DEBUG:RandomNumber501 1
+2018-07-11 14:48:55,711:DEBUG:RandomNumber1 5
+2018-07-11 14:48:55,711:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,712:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 6 6 13 111 56
+2018-07-11 14:48:55,712:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,712:DEBUG:OurataScore 25
+2018-07-11 14:48:55,712:DEBUG:OppDefScore 38
+2018-07-11 14:48:55,712:DEBUG:OppAtaScore 41
+2018-07-11 14:48:55,712:DEBUG: GT else -ourcomarescore -13
+2018-07-11 14:48:55,712:DEBUG: else -ourgoals 1
+2018-07-11 14:48:55,712:DEBUG: GT 10 -oppcomarescore 17
+2018-07-11 14:48:55,713:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:48:55,713:DEBUG: Final Score 1
+2018-07-11 14:48:55,713:DEBUG: Final Score 3
+2018-07-11 14:48:55,743:DEBUG:New game
+2018-07-11 14:48:55,744:DEBUG:   
+2018-07-11 14:48:55,744:DEBUG:RandomNumber 9
+2018-07-11 14:48:55,744:DEBUG:RandomNumber50 2
+2018-07-11 14:48:55,744:DEBUG:RandomNumber501 7
+2018-07-11 14:48:55,744:DEBUG:RandomNumber1 7
+2018-07-11 14:48:55,744:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,744:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 13 15 10 120 106
+2018-07-11 14:48:55,745:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,745:DEBUG:OurataScore 25
+2018-07-11 14:48:55,745:DEBUG:OppDefScore 61
+2018-07-11 14:48:55,745:DEBUG:OppAtaScore 61
+2018-07-11 14:48:55,745:DEBUG: GT else -ourcomarescore -36
+2018-07-11 14:48:55,745:DEBUG: else -ourgoals 2
+2018-07-11 14:48:55,745:DEBUG: GT 25 -oppcomarescore 37
+2018-07-11 14:48:55,745:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:48:55,746:DEBUG: Final Score 2
+2018-07-11 14:48:55,746:DEBUG: Final Score 2
+2018-07-11 14:48:55,776:DEBUG:New game
+2018-07-11 14:48:55,776:DEBUG:   
+2018-07-11 14:48:55,776:DEBUG:RandomNumber 2
+2018-07-11 14:48:55,777:DEBUG:RandomNumber50 6
+2018-07-11 14:48:55,777:DEBUG:RandomNumber501 4
+2018-07-11 14:48:55,777:DEBUG:RandomNumber1 2
+2018-07-11 14:48:55,777:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,777:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 13 13 12 104 116
+2018-07-11 14:48:55,777:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,777:DEBUG:OurataScore 25
+2018-07-11 14:48:55,777:DEBUG:OppDefScore 61
+2018-07-11 14:48:55,778:DEBUG:OppAtaScore 60
+2018-07-11 14:48:55,778:DEBUG: GT else -ourcomarescore -36
+2018-07-11 14:48:55,778:DEBUG: else -ourgoals 1
+2018-07-11 14:48:55,778:DEBUG: GT 25 -oppcomarescore 36
+2018-07-11 14:48:55,778:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,778:DEBUG: Final Score 1
+2018-07-11 14:48:55,778:DEBUG: Final Score 3
+2018-07-11 14:48:55,809:DEBUG:New game
+2018-07-11 14:48:55,809:DEBUG:   
+2018-07-11 14:48:55,810:DEBUG:RandomNumber 4
+2018-07-11 14:48:55,810:DEBUG:RandomNumber50 2
+2018-07-11 14:48:55,810:DEBUG:RandomNumber501 9
+2018-07-11 14:48:55,810:DEBUG:RandomNumber1 2
+2018-07-11 14:48:55,810:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,810:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 12 10 12 121 102
+2018-07-11 14:48:55,810:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,811:DEBUG:OurataScore 25
+2018-07-11 14:48:55,811:DEBUG:OppDefScore 57
+2018-07-11 14:48:55,811:DEBUG:OppAtaScore 54
+2018-07-11 14:48:55,811:DEBUG: GT else -ourcomarescore -32
+2018-07-11 14:48:55,811:DEBUG: else -ourgoals 2
+2018-07-11 14:48:55,811:DEBUG: GT 25 -oppcomarescore 30
+2018-07-11 14:48:55,811:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,811:DEBUG: Final Score 2
+2018-07-11 14:48:55,811:DEBUG: Final Score 3
+2018-07-11 14:48:55,859:DEBUG:New game
+2018-07-11 14:48:55,860:DEBUG:   
+2018-07-11 14:48:55,860:DEBUG:RandomNumber 3
+2018-07-11 14:48:55,860:DEBUG:RandomNumber50 8
+2018-07-11 14:48:55,860:DEBUG:RandomNumber501 7
+2018-07-11 14:48:55,860:DEBUG:RandomNumber1 8
+2018-07-11 14:48:55,860:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,860:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 11 12 15 140 148
+2018-07-11 14:48:55,860:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,861:DEBUG:OurataScore 25
+2018-07-11 14:48:55,861:DEBUG:OppDefScore 59
+2018-07-11 14:48:55,861:DEBUG:OppAtaScore 63
+2018-07-11 14:48:55,861:DEBUG: GT else -ourcomarescore -34
+2018-07-11 14:48:55,861:DEBUG: else -ourgoals 0
+2018-07-11 14:48:55,861:DEBUG: GT 25 -oppcomarescore 39
+2018-07-11 14:48:55,861:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,861:DEBUG: Final Score 0
+2018-07-11 14:48:55,861:DEBUG: Final Score 3
+2018-07-11 14:48:55,875:DEBUG:New game
+2018-07-11 14:48:55,875:DEBUG:   
+2018-07-11 14:48:55,875:DEBUG:RandomNumber 2
+2018-07-11 14:48:55,875:DEBUG:RandomNumber50 7
+2018-07-11 14:48:55,875:DEBUG:RandomNumber501 9
+2018-07-11 14:48:55,876:DEBUG:RandomNumber1 9
+2018-07-11 14:48:55,876:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,876:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 16 15 13 17 183 150
+2018-07-11 14:48:55,876:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,876:DEBUG:OurataScore 25
+2018-07-11 14:48:55,876:DEBUG:OppDefScore 74
+2018-07-11 14:48:55,876:DEBUG:OppAtaScore 74
+2018-07-11 14:48:55,876:DEBUG: GT else -ourcomarescore -49
+2018-07-11 14:48:55,877:DEBUG: else -ourgoals 1
+2018-07-11 14:48:55,877:DEBUG: GT 25 -oppcomarescore 50
+2018-07-11 14:48:55,877:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:55,877:DEBUG: Final Score 1
+2018-07-11 14:48:55,877:DEBUG: Final Score 3
+2018-07-11 14:48:55,907:DEBUG:New game
+2018-07-11 14:48:55,908:DEBUG:   
+2018-07-11 14:48:55,908:DEBUG:RandomNumber 10
+2018-07-11 14:48:55,908:DEBUG:RandomNumber50 10
+2018-07-11 14:48:55,908:DEBUG:RandomNumber501 6
+2018-07-11 14:48:55,908:DEBUG:RandomNumber1 2
+2018-07-11 14:48:55,908:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:55,908:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 17 17 14 142 183
+2018-07-11 14:48:55,908:DEBUG:OurDefScore 24
+2018-07-11 14:48:55,909:DEBUG:OurataScore 25
+2018-07-11 14:48:55,909:DEBUG:OppDefScore 76
+2018-07-11 14:48:55,909:DEBUG:OppAtaScore 77
+2018-07-11 14:48:55,909:DEBUG: GT else -ourcomarescore -51
+2018-07-11 14:48:55,909:DEBUG: else -ourgoals 0
+2018-07-11 14:48:55,909:DEBUG: GT 50 -oppcomarescore 53
+2018-07-11 14:48:55,909:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:48:55,909:DEBUG: Final Score 1
+2018-07-11 14:48:55,909:DEBUG: Final Score 0
+2018-07-11 14:48:56,356:DEBUG:New game
+2018-07-11 14:48:56,356:DEBUG:   
+2018-07-11 14:48:56,356:DEBUG:RandomNumber 7
+2018-07-11 14:48:56,356:DEBUG:RandomNumber50 3
+2018-07-11 14:48:56,357:DEBUG:RandomNumber501 3
+2018-07-11 14:48:56,357:DEBUG:RandomNumber1 7
+2018-07-11 14:48:56,357:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:56,357:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 14 15 16 154 156
+2018-07-11 14:48:56,357:DEBUG:OurDefScore 24
+2018-07-11 14:48:56,357:DEBUG:OurataScore 25
+2018-07-11 14:48:56,357:DEBUG:OppDefScore 71
+2018-07-11 14:48:56,357:DEBUG:OppAtaScore 73
+2018-07-11 14:48:56,358:DEBUG: GT else -ourcomarescore -46
+2018-07-11 14:48:56,358:DEBUG: else -ourgoals 2
+2018-07-11 14:48:56,358:DEBUG: GT 25 -oppcomarescore 49
+2018-07-11 14:48:56,358:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:48:56,358:DEBUG: Final Score 2
+2018-07-11 14:48:56,358:DEBUG: Final Score 3
+2018-07-11 14:48:56,585:DEBUG:New game
+2018-07-11 14:48:56,586:DEBUG:   
+2018-07-11 14:48:56,586:DEBUG:RandomNumber 9
+2018-07-11 14:48:56,586:DEBUG:RandomNumber50 8
+2018-07-11 14:48:56,586:DEBUG:RandomNumber501 3
+2018-07-11 14:48:56,586:DEBUG:RandomNumber1 10
+2018-07-11 14:48:56,586:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:56,586:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 20 15 15 17 169 172
+2018-07-11 14:48:56,586:DEBUG:OurDefScore 24
+2018-07-11 14:48:56,586:DEBUG:OurataScore 25
+2018-07-11 14:48:56,587:DEBUG:OppDefScore 80
+2018-07-11 14:48:56,587:DEBUG:OppAtaScore 77
+2018-07-11 14:48:56,587:DEBUG: GT else -ourcomarescore -55
+2018-07-11 14:48:56,587:DEBUG: else -ourgoals 0
+2018-07-11 14:48:56,587:DEBUG: GT 50 -oppcomarescore 53
+2018-07-11 14:48:56,587:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:48:56,587:DEBUG: Final Score 1
+2018-07-11 14:48:56,587:DEBUG: Final Score 0
+2018-07-11 14:48:56,793:DEBUG:New game
+2018-07-11 14:48:56,794:DEBUG:   
+2018-07-11 14:48:56,794:DEBUG:RandomNumber 6
+2018-07-11 14:48:56,794:DEBUG:RandomNumber50 10
+2018-07-11 14:48:56,794:DEBUG:RandomNumber501 10
+2018-07-11 14:48:56,794:DEBUG:RandomNumber1 6
+2018-07-11 14:48:56,794:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:56,794:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 17 18 20 133 176
+2018-07-11 14:48:56,795:DEBUG:OurDefScore 24
+2018-07-11 14:48:56,795:DEBUG:OurataScore 25
+2018-07-11 14:48:56,795:DEBUG:OppDefScore 83
+2018-07-11 14:48:56,795:DEBUG:OppAtaScore 86
+2018-07-11 14:48:56,795:DEBUG: GT else -ourcomarescore -58
+2018-07-11 14:48:56,795:DEBUG: else -ourgoals 0
+2018-07-11 14:48:56,795:DEBUG: GT 50 -oppcomarescore 62
+2018-07-11 14:48:56,795:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:48:56,795:DEBUG: Final Score 0
+2018-07-11 14:48:56,795:DEBUG: Final Score 3
+2018-07-11 14:48:56,999:DEBUG:New game
+2018-07-11 14:48:57,000:DEBUG:   
+2018-07-11 14:48:57,000:DEBUG:RandomNumber 2
+2018-07-11 14:48:57,000:DEBUG:RandomNumber50 6
+2018-07-11 14:48:57,000:DEBUG:RandomNumber501 8
+2018-07-11 14:48:57,000:DEBUG:RandomNumber1 10
+2018-07-11 14:48:57,000:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:57,000:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 19 17 20 145 176
+2018-07-11 14:48:57,000:DEBUG:OurDefScore 24
+2018-07-11 14:48:57,000:DEBUG:OurataScore 25
+2018-07-11 14:48:57,001:DEBUG:OppDefScore 86
+2018-07-11 14:48:57,001:DEBUG:OppAtaScore 87
+2018-07-11 14:48:57,001:DEBUG: GT else -ourcomarescore -61
+2018-07-11 14:48:57,001:DEBUG: else -ourgoals 1
+2018-07-11 14:48:57,001:DEBUG: GT 50 -oppcomarescore 63
+2018-07-11 14:48:57,001:DEBUG: GT 50 -oppgoals 4
+2018-07-11 14:48:57,001:DEBUG: Final Score 1
+2018-07-11 14:48:57,001:DEBUG: Final Score 4
+2018-07-11 14:48:57,315:DEBUG:New game
+2018-07-11 14:48:57,315:DEBUG:   
+2018-07-11 14:48:57,316:DEBUG:RandomNumber 5
+2018-07-11 14:48:57,316:DEBUG:RandomNumber50 6
+2018-07-11 14:48:57,316:DEBUG:RandomNumber501 2
+2018-07-11 14:48:57,316:DEBUG:RandomNumber1 10
+2018-07-11 14:48:57,316:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 4 4 4 5 130 28
+2018-07-11 14:48:57,316:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 16 15 16 184 192
+2018-07-11 14:48:57,316:DEBUG:OurDefScore 24
+2018-07-11 14:48:57,316:DEBUG:OurataScore 25
+2018-07-11 14:48:57,317:DEBUG:OppDefScore 78
+2018-07-11 14:48:57,317:DEBUG:OppAtaScore 78
+2018-07-11 14:48:57,317:DEBUG: GT else -ourcomarescore -53
+2018-07-11 14:48:57,317:DEBUG: else -ourgoals 1
+2018-07-11 14:48:57,317:DEBUG: GT 50 -oppcomarescore 54
+2018-07-11 14:48:57,317:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:48:57,317:DEBUG: Final Score 1
+2018-07-11 14:48:57,317:DEBUG: Final Score 3
+2018-07-11 14:49:32,108:DEBUG:Starting program
+2018-07-11 14:49:32,108:DEBUG:New game
+2018-07-11 14:49:32,109:DEBUG:   
+2018-07-11 14:49:32,109:DEBUG:Starting program
+2018-07-11 14:49:32,783:DEBUG:New game
+2018-07-11 14:49:32,784:DEBUG:   
+2018-07-11 14:49:32,784:DEBUG:RandomNumber 7
+2018-07-11 14:49:32,784:DEBUG:RandomNumber50 7
+2018-07-11 14:49:32,784:DEBUG:RandomNumber501 7
+2018-07-11 14:49:32,784:DEBUG:RandomNumber1 9
+2018-07-11 14:49:32,784:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:32,784:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 8 6 11 8 78 71
+2018-07-11 14:49:32,785:DEBUG:OurDefScore 26
+2018-07-11 14:49:32,785:DEBUG:OurataScore 26
+2018-07-11 14:49:32,785:DEBUG:OppDefScore 37
+2018-07-11 14:49:32,785:DEBUG:OppAtaScore 42
+2018-07-11 14:49:32,785:DEBUG: GT else -ourcomarescore -11
+2018-07-11 14:49:32,785:DEBUG: else -ourgoals 1
+2018-07-11 14:49:32,785:DEBUG: GT 10 -oppcomarescore 16
+2018-07-11 14:49:32,785:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:49:32,786:DEBUG: Final Score 1
+2018-07-11 14:49:32,786:DEBUG: Final Score 2
+2018-07-11 14:49:32,960:DEBUG:New game
+2018-07-11 14:49:32,961:DEBUG:   
+2018-07-11 14:49:32,961:DEBUG:RandomNumber 2
+2018-07-11 14:49:32,961:DEBUG:RandomNumber50 4
+2018-07-11 14:49:32,961:DEBUG:RandomNumber501 2
+2018-07-11 14:49:32,961:DEBUG:RandomNumber1 8
+2018-07-11 14:49:32,961:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:32,961:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 14 11 9 116 84
+2018-07-11 14:49:32,962:DEBUG:OurDefScore 26
+2018-07-11 14:49:32,962:DEBUG:OurataScore 26
+2018-07-11 14:49:32,962:DEBUG:OppDefScore 61
+2018-07-11 14:49:32,962:DEBUG:OppAtaScore 53
+2018-07-11 14:49:32,962:DEBUG: GT else -ourcomarescore -35
+2018-07-11 14:49:32,962:DEBUG: else -ourgoals 2
+2018-07-11 14:49:32,962:DEBUG: GT 25 -oppcomarescore 27
+2018-07-11 14:49:32,962:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:49:32,962:DEBUG: Final Score 2
+2018-07-11 14:49:32,962:DEBUG: Final Score 3
+2018-07-11 14:49:33,148:DEBUG:New game
+2018-07-11 14:49:33,148:DEBUG:   
+2018-07-11 14:49:33,148:DEBUG:RandomNumber 2
+2018-07-11 14:49:33,148:DEBUG:RandomNumber50 9
+2018-07-11 14:49:33,148:DEBUG:RandomNumber501 7
+2018-07-11 14:49:33,148:DEBUG:RandomNumber1 3
+2018-07-11 14:49:33,149:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:33,149:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 5 10 7 8 145 138
+2018-07-11 14:49:33,149:DEBUG:OurDefScore 26
+2018-07-11 14:49:33,149:DEBUG:OurataScore 26
+2018-07-11 14:49:33,149:DEBUG:OppDefScore 44
+2018-07-11 14:49:33,149:DEBUG:OppAtaScore 44
+2018-07-11 14:49:33,149:DEBUG: GT else -ourcomarescore -18
+2018-07-11 14:49:33,149:DEBUG: else -ourgoals 0
+2018-07-11 14:49:33,149:DEBUG: GT 10 -oppcomarescore 18
+2018-07-11 14:49:33,150:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:49:33,150:DEBUG: Final Score 0
+2018-07-11 14:49:33,150:DEBUG: Final Score 3
+2018-07-11 14:49:33,320:DEBUG:New game
+2018-07-11 14:49:33,320:DEBUG:   
+2018-07-11 14:49:33,320:DEBUG:RandomNumber 1
+2018-07-11 14:49:33,321:DEBUG:RandomNumber50 5
+2018-07-11 14:49:33,321:DEBUG:RandomNumber501 2
+2018-07-11 14:49:33,321:DEBUG:RandomNumber1 4
+2018-07-11 14:49:33,321:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:33,321:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 10 8 10 141 109
+2018-07-11 14:49:33,321:DEBUG:OurDefScore 26
+2018-07-11 14:49:33,321:DEBUG:OurataScore 26
+2018-07-11 14:49:33,321:DEBUG:OppDefScore 50
+2018-07-11 14:49:33,322:DEBUG:OppAtaScore 47
+2018-07-11 14:49:33,322:DEBUG: GT else -ourcomarescore -24
+2018-07-11 14:49:33,322:DEBUG: else -ourgoals 1
+2018-07-11 14:49:33,322:DEBUG: GT 10 -oppcomarescore 21
+2018-07-11 14:49:33,322:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:49:33,322:DEBUG: Final Score 1
+2018-07-11 14:49:33,322:DEBUG: Final Score 3
+2018-07-11 14:49:33,505:DEBUG:New game
+2018-07-11 14:49:33,505:DEBUG:   
+2018-07-11 14:49:33,506:DEBUG:RandomNumber 9
+2018-07-11 14:49:33,506:DEBUG:RandomNumber50 7
+2018-07-11 14:49:33,506:DEBUG:RandomNumber501 3
+2018-07-11 14:49:33,506:DEBUG:RandomNumber1 2
+2018-07-11 14:49:33,506:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:33,506:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 7 9 14 108 137
+2018-07-11 14:49:33,506:DEBUG:OurDefScore 26
+2018-07-11 14:49:33,507:DEBUG:OurataScore 26
+2018-07-11 14:49:33,507:DEBUG:OppDefScore 45
+2018-07-11 14:49:33,507:DEBUG:OppAtaScore 51
+2018-07-11 14:49:33,507:DEBUG: GT else -ourcomarescore -19
+2018-07-11 14:49:33,507:DEBUG: else -ourgoals 1
+2018-07-11 14:49:33,507:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:49:33,507:DEBUG: GT 10 -oppgoals 0
+2018-07-11 14:49:33,507:DEBUG: Final Score 1
+2018-07-11 14:49:33,508:DEBUG: Final Score 0
+2018-07-11 14:49:33,696:DEBUG:New game
+2018-07-11 14:49:33,697:DEBUG:   
+2018-07-11 14:49:33,697:DEBUG:RandomNumber 8
+2018-07-11 14:49:33,697:DEBUG:RandomNumber50 9
+2018-07-11 14:49:33,697:DEBUG:RandomNumber501 2
+2018-07-11 14:49:33,697:DEBUG:RandomNumber1 2
+2018-07-11 14:49:33,697:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:33,697:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 13 13 15 130 107
+2018-07-11 14:49:33,698:DEBUG:OurDefScore 26
+2018-07-11 14:49:33,698:DEBUG:OurataScore 26
+2018-07-11 14:49:33,698:DEBUG:OppDefScore 62
+2018-07-11 14:49:33,698:DEBUG:OppAtaScore 65
+2018-07-11 14:49:33,698:DEBUG: GT else -ourcomarescore -36
+2018-07-11 14:49:33,698:DEBUG: else -ourgoals 0
+2018-07-11 14:49:33,698:DEBUG: GT 25 -oppcomarescore 39
+2018-07-11 14:49:33,698:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:49:33,698:DEBUG: Final Score 0
+2018-07-11 14:49:33,699:DEBUG: Final Score 2
+2018-07-11 14:49:33,882:DEBUG:New game
+2018-07-11 14:49:33,883:DEBUG:   
+2018-07-11 14:49:33,883:DEBUG:RandomNumber 9
+2018-07-11 14:49:33,883:DEBUG:RandomNumber50 5
+2018-07-11 14:49:33,883:DEBUG:RandomNumber501 7
+2018-07-11 14:49:33,883:DEBUG:RandomNumber1 2
+2018-07-11 14:49:33,883:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:33,883:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 13 11 14 140 146
+2018-07-11 14:49:33,883:DEBUG:OurDefScore 26
+2018-07-11 14:49:33,884:DEBUG:OurataScore 26
+2018-07-11 14:49:33,884:DEBUG:OppDefScore 62
+2018-07-11 14:49:33,884:DEBUG:OppAtaScore 62
+2018-07-11 14:49:33,884:DEBUG: GT else -ourcomarescore -36
+2018-07-11 14:49:33,884:DEBUG: else -ourgoals 1
+2018-07-11 14:49:33,884:DEBUG: GT 25 -oppcomarescore 36
+2018-07-11 14:49:33,884:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:49:33,884:DEBUG: Final Score 1
+2018-07-11 14:49:33,884:DEBUG: Final Score 2
+2018-07-11 14:49:34,077:DEBUG:New game
+2018-07-11 14:49:34,078:DEBUG:   
+2018-07-11 14:49:34,078:DEBUG:RandomNumber 9
+2018-07-11 14:49:34,078:DEBUG:RandomNumber50 6
+2018-07-11 14:49:34,078:DEBUG:RandomNumber501 8
+2018-07-11 14:49:34,078:DEBUG:RandomNumber1 8
+2018-07-11 14:49:34,078:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:34,078:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 10 11 13 119 107
+2018-07-11 14:49:34,078:DEBUG:OurDefScore 26
+2018-07-11 14:49:34,078:DEBUG:OurataScore 26
+2018-07-11 14:49:34,079:DEBUG:OppDefScore 53
+2018-07-11 14:49:34,079:DEBUG:OppAtaScore 55
+2018-07-11 14:49:34,079:DEBUG: GT else -ourcomarescore -27
+2018-07-11 14:49:34,079:DEBUG: else -ourgoals 1
+2018-07-11 14:49:34,079:DEBUG: GT 25 -oppcomarescore 29
+2018-07-11 14:49:34,079:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:49:34,079:DEBUG: Final Score 1
+2018-07-11 14:49:34,079:DEBUG: Final Score 2
+2018-07-11 14:49:34,270:DEBUG:New game
+2018-07-11 14:49:34,270:DEBUG:   
+2018-07-11 14:49:34,270:DEBUG:RandomNumber 9
+2018-07-11 14:49:34,270:DEBUG:RandomNumber50 6
+2018-07-11 14:49:34,270:DEBUG:RandomNumber501 7
+2018-07-11 14:49:34,270:DEBUG:RandomNumber1 10
+2018-07-11 14:49:34,271:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:34,271:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 12 10 11 133 122
+2018-07-11 14:49:34,271:DEBUG:OurDefScore 26
+2018-07-11 14:49:34,271:DEBUG:OurataScore 26
+2018-07-11 14:49:34,271:DEBUG:OppDefScore 55
+2018-07-11 14:49:34,271:DEBUG:OppAtaScore 54
+2018-07-11 14:49:34,271:DEBUG: GT else -ourcomarescore -29
+2018-07-11 14:49:34,271:DEBUG: else -ourgoals 1
+2018-07-11 14:49:34,271:DEBUG: GT 25 -oppcomarescore 28
+2018-07-11 14:49:34,271:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:49:34,272:DEBUG: Final Score 1
+2018-07-11 14:49:34,272:DEBUG: Final Score 2
+2018-07-11 14:49:34,452:DEBUG:New game
+2018-07-11 14:49:34,453:DEBUG:   
+2018-07-11 14:49:34,453:DEBUG:RandomNumber 1
+2018-07-11 14:49:34,453:DEBUG:RandomNumber50 1
+2018-07-11 14:49:34,453:DEBUG:RandomNumber501 4
+2018-07-11 14:49:34,453:DEBUG:RandomNumber1 6
+2018-07-11 14:49:34,453:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:34,453:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 15 13 16 161 151
+2018-07-11 14:49:34,454:DEBUG:OurDefScore 26
+2018-07-11 14:49:34,454:DEBUG:OurataScore 26
+2018-07-11 14:49:34,454:DEBUG:OppDefScore 70
+2018-07-11 14:49:34,454:DEBUG:OppAtaScore 71
+2018-07-11 14:49:34,454:DEBUG: GT else -ourcomarescore -44
+2018-07-11 14:49:34,454:DEBUG: else -ourgoals 3
+2018-07-11 14:49:34,454:DEBUG: GT 25 -oppcomarescore 45
+2018-07-11 14:49:34,454:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:49:34,454:DEBUG: Final Score 3
+2018-07-11 14:49:34,455:DEBUG: Final Score 3
+2018-07-11 14:49:34,633:DEBUG:New game
+2018-07-11 14:49:34,634:DEBUG:   
+2018-07-11 14:49:34,634:DEBUG:RandomNumber 3
+2018-07-11 14:49:34,634:DEBUG:RandomNumber50 6
+2018-07-11 14:49:34,634:DEBUG:RandomNumber501 5
+2018-07-11 14:49:34,634:DEBUG:RandomNumber1 6
+2018-07-11 14:49:34,634:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:34,634:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 14 14 16 126 180
+2018-07-11 14:49:34,635:DEBUG:OurDefScore 26
+2018-07-11 14:49:34,635:DEBUG:OurataScore 26
+2018-07-11 14:49:34,635:DEBUG:OppDefScore 69
+2018-07-11 14:49:34,635:DEBUG:OppAtaScore 71
+2018-07-11 14:49:34,635:DEBUG: GT else -ourcomarescore -43
+2018-07-11 14:49:34,635:DEBUG: else -ourgoals 1
+2018-07-11 14:49:34,635:DEBUG: GT 25 -oppcomarescore 45
+2018-07-11 14:49:34,635:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:49:34,635:DEBUG: Final Score 1
+2018-07-11 14:49:34,635:DEBUG: Final Score 3
+2018-07-11 14:49:34,826:DEBUG:New game
+2018-07-11 14:49:34,826:DEBUG:   
+2018-07-11 14:49:34,826:DEBUG:RandomNumber 6
+2018-07-11 14:49:34,827:DEBUG:RandomNumber50 6
+2018-07-11 14:49:34,827:DEBUG:RandomNumber501 8
+2018-07-11 14:49:34,827:DEBUG:RandomNumber1 9
+2018-07-11 14:49:34,827:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:34,827:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 16 16 16 126 125
+2018-07-11 14:49:34,827:DEBUG:OurDefScore 26
+2018-07-11 14:49:34,827:DEBUG:OurataScore 26
+2018-07-11 14:49:34,828:DEBUG:OppDefScore 75
+2018-07-11 14:49:34,828:DEBUG:OppAtaScore 74
+2018-07-11 14:49:34,828:DEBUG: GT else -ourcomarescore -49
+2018-07-11 14:49:34,828:DEBUG: else -ourgoals 1
+2018-07-11 14:49:34,828:DEBUG: GT 25 -oppcomarescore 48
+2018-07-11 14:49:34,828:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:49:34,828:DEBUG: Final Score 1
+2018-07-11 14:49:34,828:DEBUG: Final Score 3
+2018-07-11 14:49:35,002:DEBUG:New game
+2018-07-11 14:49:35,003:DEBUG:   
+2018-07-11 14:49:35,003:DEBUG:RandomNumber 8
+2018-07-11 14:49:35,003:DEBUG:RandomNumber50 7
+2018-07-11 14:49:35,003:DEBUG:RandomNumber501 4
+2018-07-11 14:49:35,003:DEBUG:RandomNumber1 3
+2018-07-11 14:49:35,003:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:35,003:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 19 18 17 174 151
+2018-07-11 14:49:35,003:DEBUG:OurDefScore 26
+2018-07-11 14:49:35,004:DEBUG:OurataScore 26
+2018-07-11 14:49:35,004:DEBUG:OppDefScore 85
+2018-07-11 14:49:35,004:DEBUG:OppAtaScore 86
+2018-07-11 14:49:35,004:DEBUG: GT else -ourcomarescore -59
+2018-07-11 14:49:35,004:DEBUG: else -ourgoals 1
+2018-07-11 14:49:35,004:DEBUG: GT 50 -oppcomarescore 60
+2018-07-11 14:49:35,004:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:49:35,004:DEBUG: Final Score 1
+2018-07-11 14:49:35,004:DEBUG: Final Score 2
+2018-07-11 14:49:35,195:DEBUG:New game
+2018-07-11 14:49:35,195:DEBUG:   
+2018-07-11 14:49:35,195:DEBUG:RandomNumber 4
+2018-07-11 14:49:35,195:DEBUG:RandomNumber50 4
+2018-07-11 14:49:35,195:DEBUG:RandomNumber501 10
+2018-07-11 14:49:35,195:DEBUG:RandomNumber1 9
+2018-07-11 14:49:35,195:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:35,196:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 19 16 20 18 120 182
+2018-07-11 14:49:35,196:DEBUG:OurDefScore 26
+2018-07-11 14:49:35,196:DEBUG:OurataScore 26
+2018-07-11 14:49:35,196:DEBUG:OppDefScore 83
+2018-07-11 14:49:35,196:DEBUG:OppAtaScore 86
+2018-07-11 14:49:35,196:DEBUG: GT else -ourcomarescore -57
+2018-07-11 14:49:35,196:DEBUG: else -ourgoals 2
+2018-07-11 14:49:35,196:DEBUG: GT 50 -oppcomarescore 60
+2018-07-11 14:49:35,196:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:49:35,197:DEBUG: Final Score 2
+2018-07-11 14:49:35,197:DEBUG: Final Score 3
+2018-07-11 14:49:35,382:DEBUG:New game
+2018-07-11 14:49:35,383:DEBUG:   
+2018-07-11 14:49:35,383:DEBUG:RandomNumber 8
+2018-07-11 14:49:35,383:DEBUG:RandomNumber50 8
+2018-07-11 14:49:35,383:DEBUG:RandomNumber501 5
+2018-07-11 14:49:35,383:DEBUG:RandomNumber1 7
+2018-07-11 14:49:35,383:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:35,383:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 19 18 16 17 148 179
+2018-07-11 14:49:35,383:DEBUG:OurDefScore 26
+2018-07-11 14:49:35,383:DEBUG:OurataScore 26
+2018-07-11 14:49:35,384:DEBUG:OppDefScore 84
+2018-07-11 14:49:35,384:DEBUG:OppAtaScore 81
+2018-07-11 14:49:35,384:DEBUG: GT else -ourcomarescore -58
+2018-07-11 14:49:35,384:DEBUG: else -ourgoals 0
+2018-07-11 14:49:35,384:DEBUG: GT 50 -oppcomarescore 55
+2018-07-11 14:49:35,384:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:49:35,385:DEBUG: Final Score 0
+2018-07-11 14:49:35,385:DEBUG: Final Score 2
+2018-07-11 14:49:35,732:DEBUG:New game
+2018-07-11 14:49:35,733:DEBUG:   
+2018-07-11 14:49:35,733:DEBUG:RandomNumber 10
+2018-07-11 14:49:35,733:DEBUG:RandomNumber50 4
+2018-07-11 14:49:35,733:DEBUG:RandomNumber501 3
+2018-07-11 14:49:35,733:DEBUG:RandomNumber1 8
+2018-07-11 14:49:35,733:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 5 144 29
+2018-07-11 14:49:35,734:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 18 20 15 194 184
+2018-07-11 14:49:35,734:DEBUG:OurDefScore 26
+2018-07-11 14:49:35,734:DEBUG:OurataScore 26
+2018-07-11 14:49:35,734:DEBUG:OppDefScore 86
+2018-07-11 14:49:35,734:DEBUG:OppAtaScore 88
+2018-07-11 14:49:35,734:DEBUG: GT else -ourcomarescore -60
+2018-07-11 14:49:35,734:DEBUG: else -ourgoals 2
+2018-07-11 14:49:35,734:DEBUG: GT 50 -oppcomarescore 62
+2018-07-11 14:49:35,734:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:49:35,735:DEBUG: Final Score 0
+2018-07-11 14:49:35,735:DEBUG: Final Score 0
+2018-07-11 14:50:06,747:DEBUG:Starting program
+2018-07-11 14:50:06,748:DEBUG:New game
+2018-07-11 14:50:06,748:DEBUG:   
+2018-07-11 14:50:06,749:DEBUG:Starting program
+2018-07-11 14:50:07,373:DEBUG:New game
+2018-07-11 14:50:07,373:DEBUG:   
+2018-07-11 14:50:07,373:DEBUG:RandomNumber 1
+2018-07-11 14:50:07,373:DEBUG:RandomNumber50 4
+2018-07-11 14:50:07,374:DEBUG:RandomNumber501 5
+2018-07-11 14:50:07,374:DEBUG:RandomNumber1 7
+2018-07-11 14:50:07,374:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:07,374:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 11 14 5 6 146 88
+2018-07-11 14:50:07,374:DEBUG:OurDefScore 24
+2018-07-11 14:50:07,374:DEBUG:OurataScore 24
+2018-07-11 14:50:07,374:DEBUG:OppDefScore 52
+2018-07-11 14:50:07,374:DEBUG:OppAtaScore 40
+2018-07-11 14:50:07,375:DEBUG: GT else -ourcomarescore -28
+2018-07-11 14:50:07,375:DEBUG: else -ourgoals 2
+2018-07-11 14:50:07,375:DEBUG: GT 10 -oppcomarescore 16
+2018-07-11 14:50:07,375:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:50:07,375:DEBUG: Final Score 2
+2018-07-11 14:50:07,375:DEBUG: Final Score 3
+2018-07-11 14:50:07,560:DEBUG:New game
+2018-07-11 14:50:07,561:DEBUG:   
+2018-07-11 14:50:07,561:DEBUG:RandomNumber 7
+2018-07-11 14:50:07,561:DEBUG:RandomNumber50 2
+2018-07-11 14:50:07,561:DEBUG:RandomNumber501 6
+2018-07-11 14:50:07,561:DEBUG:RandomNumber1 8
+2018-07-11 14:50:07,562:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:07,562:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 5 9 9 12 121 100
+2018-07-11 14:50:07,562:DEBUG:OurDefScore 24
+2018-07-11 14:50:07,562:DEBUG:OurataScore 24
+2018-07-11 14:50:07,562:DEBUG:OppDefScore 43
+2018-07-11 14:50:07,562:DEBUG:OppAtaScore 49
+2018-07-11 14:50:07,562:DEBUG: GT else -ourcomarescore -19
+2018-07-11 14:50:07,563:DEBUG: else -ourgoals 2
+2018-07-11 14:50:07,563:DEBUG: GT 10 -oppcomarescore 25
+2018-07-11 14:50:07,563:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:50:07,563:DEBUG: Final Score 2
+2018-07-11 14:50:07,563:DEBUG: Final Score 2
+2018-07-11 14:50:07,723:DEBUG:New game
+2018-07-11 14:50:07,723:DEBUG:   
+2018-07-11 14:50:07,724:DEBUG:RandomNumber 6
+2018-07-11 14:50:07,724:DEBUG:RandomNumber50 2
+2018-07-11 14:50:07,724:DEBUG:RandomNumber501 6
+2018-07-11 14:50:07,724:DEBUG:RandomNumber1 2
+2018-07-11 14:50:07,724:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:07,724:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 8 6 5 70 78
+2018-07-11 14:50:07,724:DEBUG:OurDefScore 24
+2018-07-11 14:50:07,724:DEBUG:OurataScore 24
+2018-07-11 14:50:07,724:DEBUG:OppDefScore 39
+2018-07-11 14:50:07,725:DEBUG:OppAtaScore 30
+2018-07-11 14:50:07,725:DEBUG: GT else -ourcomarescore -15
+2018-07-11 14:50:07,725:DEBUG: else -ourgoals 2
+2018-07-11 14:50:07,725:DEBUG: else -oppcomarescore 6
+2018-07-11 14:50:07,725:DEBUG: else- -oppgoals 1
+2018-07-11 14:50:07,725:DEBUG: Final Score 2
+2018-07-11 14:50:07,725:DEBUG: Final Score 1
+2018-07-11 14:50:07,901:DEBUG:New game
+2018-07-11 14:50:07,901:DEBUG:   
+2018-07-11 14:50:07,902:DEBUG:RandomNumber 7
+2018-07-11 14:50:07,902:DEBUG:RandomNumber50 4
+2018-07-11 14:50:07,902:DEBUG:RandomNumber501 6
+2018-07-11 14:50:07,902:DEBUG:RandomNumber1 1
+2018-07-11 14:50:07,902:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:07,902:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 8 11 11 11 141 83
+2018-07-11 14:50:07,902:DEBUG:OurDefScore 24
+2018-07-11 14:50:07,902:DEBUG:OurataScore 24
+2018-07-11 14:50:07,902:DEBUG:OppDefScore 51
+2018-07-11 14:50:07,903:DEBUG:OppAtaScore 54
+2018-07-11 14:50:07,903:DEBUG: GT else -ourcomarescore -27
+2018-07-11 14:50:07,903:DEBUG: else -ourgoals 2
+2018-07-11 14:50:07,903:DEBUG: GT 25 -oppcomarescore 30
+2018-07-11 14:50:07,903:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:07,903:DEBUG: Final Score 2
+2018-07-11 14:50:07,903:DEBUG: Final Score 3
+2018-07-11 14:50:08,069:DEBUG:New game
+2018-07-11 14:50:08,070:DEBUG:   
+2018-07-11 14:50:08,070:DEBUG:RandomNumber 1
+2018-07-11 14:50:08,070:DEBUG:RandomNumber50 4
+2018-07-11 14:50:08,070:DEBUG:RandomNumber501 7
+2018-07-11 14:50:08,070:DEBUG:RandomNumber1 4
+2018-07-11 14:50:08,070:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,070:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 9 12 7 105 102
+2018-07-11 14:50:08,071:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,071:DEBUG:OurataScore 24
+2018-07-11 14:50:08,071:DEBUG:OppDefScore 47
+2018-07-11 14:50:08,071:DEBUG:OppAtaScore 47
+2018-07-11 14:50:08,071:DEBUG: GT else -ourcomarescore -23
+2018-07-11 14:50:08,071:DEBUG: else -ourgoals 2
+2018-07-11 14:50:08,071:DEBUG: GT 10 -oppcomarescore 23
+2018-07-11 14:50:08,071:DEBUG: GT 10 -oppgoals 3
+2018-07-11 14:50:08,071:DEBUG: Final Score 2
+2018-07-11 14:50:08,072:DEBUG: Final Score 3
+2018-07-11 14:50:08,237:DEBUG:New game
+2018-07-11 14:50:08,238:DEBUG:   
+2018-07-11 14:50:08,238:DEBUG:RandomNumber 4
+2018-07-11 14:50:08,238:DEBUG:RandomNumber50 8
+2018-07-11 14:50:08,238:DEBUG:RandomNumber501 2
+2018-07-11 14:50:08,238:DEBUG:RandomNumber1 9
+2018-07-11 14:50:08,238:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,238:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 15 12 13 125 143
+2018-07-11 14:50:08,238:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,238:DEBUG:OurataScore 24
+2018-07-11 14:50:08,239:DEBUG:OppDefScore 66
+2018-07-11 14:50:08,239:DEBUG:OppAtaScore 63
+2018-07-11 14:50:08,239:DEBUG: GT else -ourcomarescore -42
+2018-07-11 14:50:08,239:DEBUG: else -ourgoals 0
+2018-07-11 14:50:08,239:DEBUG: GT 25 -oppcomarescore 39
+2018-07-11 14:50:08,239:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:08,239:DEBUG: Final Score 0
+2018-07-11 14:50:08,239:DEBUG: Final Score 3
+2018-07-11 14:50:08,423:DEBUG:New game
+2018-07-11 14:50:08,424:DEBUG:   
+2018-07-11 14:50:08,424:DEBUG:RandomNumber 4
+2018-07-11 14:50:08,424:DEBUG:RandomNumber50 7
+2018-07-11 14:50:08,424:DEBUG:RandomNumber501 5
+2018-07-11 14:50:08,424:DEBUG:RandomNumber1 3
+2018-07-11 14:50:08,424:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,424:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 11 15 13 133 140
+2018-07-11 14:50:08,424:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,424:DEBUG:OurataScore 24
+2018-07-11 14:50:08,425:DEBUG:OppDefScore 62
+2018-07-11 14:50:08,425:DEBUG:OppAtaScore 65
+2018-07-11 14:50:08,425:DEBUG: GT else -ourcomarescore -38
+2018-07-11 14:50:08,425:DEBUG: else -ourgoals 1
+2018-07-11 14:50:08,425:DEBUG: GT 25 -oppcomarescore 41
+2018-07-11 14:50:08,425:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:08,425:DEBUG: Final Score 1
+2018-07-11 14:50:08,425:DEBUG: Final Score 3
+2018-07-11 14:50:08,611:DEBUG:New game
+2018-07-11 14:50:08,611:DEBUG:   
+2018-07-11 14:50:08,611:DEBUG:RandomNumber 4
+2018-07-11 14:50:08,611:DEBUG:RandomNumber50 2
+2018-07-11 14:50:08,611:DEBUG:RandomNumber501 2
+2018-07-11 14:50:08,611:DEBUG:RandomNumber1 6
+2018-07-11 14:50:08,612:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,612:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 12 13 14 119 116
+2018-07-11 14:50:08,612:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,612:DEBUG:OurataScore 24
+2018-07-11 14:50:08,612:DEBUG:OppDefScore 62
+2018-07-11 14:50:08,612:DEBUG:OppAtaScore 62
+2018-07-11 14:50:08,612:DEBUG: GT else -ourcomarescore -38
+2018-07-11 14:50:08,612:DEBUG: else -ourgoals 2
+2018-07-11 14:50:08,612:DEBUG: GT 25 -oppcomarescore 38
+2018-07-11 14:50:08,612:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:08,613:DEBUG: Final Score 2
+2018-07-11 14:50:08,613:DEBUG: Final Score 3
+2018-07-11 14:50:08,786:DEBUG:New game
+2018-07-11 14:50:08,787:DEBUG:   
+2018-07-11 14:50:08,787:DEBUG:RandomNumber 7
+2018-07-11 14:50:08,787:DEBUG:RandomNumber50 1
+2018-07-11 14:50:08,787:DEBUG:RandomNumber501 9
+2018-07-11 14:50:08,787:DEBUG:RandomNumber1 10
+2018-07-11 14:50:08,787:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,788:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 10 12 14 129 143
+2018-07-11 14:50:08,788:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,788:DEBUG:OurataScore 24
+2018-07-11 14:50:08,788:DEBUG:OppDefScore 57
+2018-07-11 14:50:08,788:DEBUG:OppAtaScore 60
+2018-07-11 14:50:08,788:DEBUG: GT else -ourcomarescore -33
+2018-07-11 14:50:08,788:DEBUG: else -ourgoals 3
+2018-07-11 14:50:08,789:DEBUG: GT 25 -oppcomarescore 36
+2018-07-11 14:50:08,789:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:08,789:DEBUG: Final Score 3
+2018-07-11 14:50:08,789:DEBUG: Final Score 3
+2018-07-11 14:50:08,957:DEBUG:New game
+2018-07-11 14:50:08,958:DEBUG:   
+2018-07-11 14:50:08,958:DEBUG:RandomNumber 1
+2018-07-11 14:50:08,958:DEBUG:RandomNumber50 10
+2018-07-11 14:50:08,958:DEBUG:RandomNumber501 6
+2018-07-11 14:50:08,958:DEBUG:RandomNumber1 6
+2018-07-11 14:50:08,958:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:08,958:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 18 18 17 129 140
+2018-07-11 14:50:08,958:DEBUG:OurDefScore 24
+2018-07-11 14:50:08,959:DEBUG:OurataScore 24
+2018-07-11 14:50:08,959:DEBUG:OppDefScore 79
+2018-07-11 14:50:08,959:DEBUG:OppAtaScore 82
+2018-07-11 14:50:08,959:DEBUG: GT else -ourcomarescore -55
+2018-07-11 14:50:08,959:DEBUG: else -ourgoals 0
+2018-07-11 14:50:08,959:DEBUG: GT 50 -oppcomarescore 58
+2018-07-11 14:50:08,959:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:50:08,959:DEBUG: Final Score 0
+2018-07-11 14:50:08,959:DEBUG: Final Score 5
+2018-07-11 14:50:09,147:DEBUG:New game
+2018-07-11 14:50:09,148:DEBUG:   
+2018-07-11 14:50:09,148:DEBUG:RandomNumber 10
+2018-07-11 14:50:09,148:DEBUG:RandomNumber50 10
+2018-07-11 14:50:09,148:DEBUG:RandomNumber501 6
+2018-07-11 14:50:09,148:DEBUG:RandomNumber1 3
+2018-07-11 14:50:09,148:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:09,148:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 14 16 16 135 149
+2018-07-11 14:50:09,149:DEBUG:OurDefScore 24
+2018-07-11 14:50:09,149:DEBUG:OurataScore 24
+2018-07-11 14:50:09,149:DEBUG:OppDefScore 73
+2018-07-11 14:50:09,149:DEBUG:OppAtaScore 74
+2018-07-11 14:50:09,149:DEBUG: GT else -ourcomarescore -49
+2018-07-11 14:50:09,149:DEBUG: else -ourgoals 0
+2018-07-11 14:50:09,149:DEBUG: GT 25 -oppcomarescore 50
+2018-07-11 14:50:09,149:DEBUG: GT 25 -oppgoals 0
+2018-07-11 14:50:09,149:DEBUG: Final Score 1
+2018-07-11 14:50:09,149:DEBUG: Final Score 0
+2018-07-11 14:50:09,329:DEBUG:New game
+2018-07-11 14:50:09,330:DEBUG:   
+2018-07-11 14:50:09,330:DEBUG:RandomNumber 3
+2018-07-11 14:50:09,330:DEBUG:RandomNumber50 3
+2018-07-11 14:50:09,330:DEBUG:RandomNumber501 8
+2018-07-11 14:50:09,330:DEBUG:RandomNumber1 5
+2018-07-11 14:50:09,330:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:09,331:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 14 18 17 17 186 126
+2018-07-11 14:50:09,331:DEBUG:OurDefScore 24
+2018-07-11 14:50:09,331:DEBUG:OurataScore 24
+2018-07-11 14:50:09,331:DEBUG:OppDefScore 81
+2018-07-11 14:50:09,331:DEBUG:OppAtaScore 83
+2018-07-11 14:50:09,331:DEBUG: GT else -ourcomarescore -57
+2018-07-11 14:50:09,331:DEBUG: else -ourgoals 2
+2018-07-11 14:50:09,331:DEBUG: GT 50 -oppcomarescore 59
+2018-07-11 14:50:09,331:DEBUG: GT 50 -oppgoals 4
+2018-07-11 14:50:09,332:DEBUG: Final Score 2
+2018-07-11 14:50:09,332:DEBUG: Final Score 4
+2018-07-11 14:50:09,513:DEBUG:New game
+2018-07-11 14:50:09,514:DEBUG:   
+2018-07-11 14:50:09,514:DEBUG:RandomNumber 9
+2018-07-11 14:50:09,514:DEBUG:RandomNumber50 2
+2018-07-11 14:50:09,514:DEBUG:RandomNumber501 4
+2018-07-11 14:50:09,514:DEBUG:RandomNumber1 4
+2018-07-11 14:50:09,514:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:09,514:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 15 15 17 188 185
+2018-07-11 14:50:09,514:DEBUG:OurDefScore 24
+2018-07-11 14:50:09,515:DEBUG:OurataScore 24
+2018-07-11 14:50:09,515:DEBUG:OppDefScore 77
+2018-07-11 14:50:09,515:DEBUG:OppAtaScore 78
+2018-07-11 14:50:09,515:DEBUG: GT else -ourcomarescore -53
+2018-07-11 14:50:09,515:DEBUG: else -ourgoals 2
+2018-07-11 14:50:09,515:DEBUG: GT 50 -oppcomarescore 54
+2018-07-11 14:50:09,515:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:50:09,515:DEBUG: Final Score 0
+2018-07-11 14:50:09,515:DEBUG: Final Score 0
+2018-07-11 14:50:09,691:DEBUG:New game
+2018-07-11 14:50:09,691:DEBUG:   
+2018-07-11 14:50:09,692:DEBUG:RandomNumber 10
+2018-07-11 14:50:09,692:DEBUG:RandomNumber50 9
+2018-07-11 14:50:09,692:DEBUG:RandomNumber501 5
+2018-07-11 14:50:09,692:DEBUG:RandomNumber1 7
+2018-07-11 14:50:09,692:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:09,692:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 19 19 16 19 109 182
+2018-07-11 14:50:09,692:DEBUG:OurDefScore 24
+2018-07-11 14:50:09,692:DEBUG:OurataScore 24
+2018-07-11 14:50:09,692:DEBUG:OppDefScore 85
+2018-07-11 14:50:09,693:DEBUG:OppAtaScore 82
+2018-07-11 14:50:09,693:DEBUG: GT else -ourcomarescore -61
+2018-07-11 14:50:09,693:DEBUG: else -ourgoals 0
+2018-07-11 14:50:09,693:DEBUG: GT 50 -oppcomarescore 58
+2018-07-11 14:50:09,693:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:50:09,693:DEBUG: Final Score 1
+2018-07-11 14:50:09,693:DEBUG: Final Score 0
+2018-07-11 14:50:09,878:DEBUG:New game
+2018-07-11 14:50:09,878:DEBUG:   
+2018-07-11 14:50:09,878:DEBUG:RandomNumber 7
+2018-07-11 14:50:09,878:DEBUG:RandomNumber50 10
+2018-07-11 14:50:09,878:DEBUG:RandomNumber501 9
+2018-07-11 14:50:09,878:DEBUG:RandomNumber1 5
+2018-07-11 14:50:09,879:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:09,879:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 20 19 17 145 166
+2018-07-11 14:50:09,879:DEBUG:OurDefScore 24
+2018-07-11 14:50:09,879:DEBUG:OurataScore 24
+2018-07-11 14:50:09,879:DEBUG:OppDefScore 88
+2018-07-11 14:50:09,879:DEBUG:OppAtaScore 87
+2018-07-11 14:50:09,879:DEBUG: GT else -ourcomarescore -64
+2018-07-11 14:50:09,879:DEBUG: else -ourgoals 0
+2018-07-11 14:50:09,879:DEBUG: GT 50 -oppcomarescore 63
+2018-07-11 14:50:09,880:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:50:09,880:DEBUG: Final Score 0
+2018-07-11 14:50:09,880:DEBUG: Final Score 2
+2018-07-11 14:50:10,084:DEBUG:New game
+2018-07-11 14:50:10,084:DEBUG:   
+2018-07-11 14:50:10,084:DEBUG:RandomNumber 3
+2018-07-11 14:50:10,084:DEBUG:RandomNumber50 2
+2018-07-11 14:50:10,084:DEBUG:RandomNumber501 6
+2018-07-11 14:50:10,084:DEBUG:RandomNumber1 7
+2018-07-11 14:50:10,085:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 4 4 128 29
+2018-07-11 14:50:10,085:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 17 19 15 183 194
+2018-07-11 14:50:10,085:DEBUG:OurDefScore 24
+2018-07-11 14:50:10,085:DEBUG:OurataScore 24
+2018-07-11 14:50:10,085:DEBUG:OppDefScore 83
+2018-07-11 14:50:10,085:DEBUG:OppAtaScore 85
+2018-07-11 14:50:10,085:DEBUG: GT else -ourcomarescore -59
+2018-07-11 14:50:10,085:DEBUG: else -ourgoals 2
+2018-07-11 14:50:10,085:DEBUG: GT 50 -oppcomarescore 61
+2018-07-11 14:50:10,086:DEBUG: GT 50 -oppgoals 4
+2018-07-11 14:50:10,086:DEBUG: Final Score 2
+2018-07-11 14:50:10,086:DEBUG: Final Score 4
+2018-07-11 14:50:11,497:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,497:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,497:DEBUG:skill change nameJunior   Ellis     
+2018-07-11 14:50:11,498:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,498:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,498:DEBUG:skill change negative number6
+2018-07-11 14:50:11,498:DEBUG:skill branch-count
+2018-07-11 14:50:11,498:DEBUG:skill branch-count
+2018-07-11 14:50:11,498:DEBUG:skill branch-count
+2018-07-11 14:50:11,498:DEBUG:skill branch-count
+2018-07-11 14:50:11,498:DEBUG:skill change current skill4
+2018-07-11 14:50:11,498:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,498:DEBUG:skill branch-count
+2018-07-11 14:50:11,499:DEBUG:skill branch-count
+2018-07-11 14:50:11,499:DEBUG:skill change current skill3
+2018-07-11 14:50:11,499:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,499:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,499:DEBUG:skill change negative number9
+2018-07-11 14:50:11,499:DEBUG:skill branch-count
+2018-07-11 14:50:11,499:DEBUG:skill branch-count
+2018-07-11 14:50:11,500:DEBUG:skill change current skill5
+2018-07-11 14:50:11,500:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,500:DEBUG:skill branch-count
+2018-07-11 14:50:11,500:DEBUG:skill branch-count
+2018-07-11 14:50:11,500:DEBUG:skill change current skill4
+2018-07-11 14:50:11,500:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,500:DEBUG:skill branch-count
+2018-07-11 14:50:11,500:DEBUG:skill branch-count
+2018-07-11 14:50:11,500:DEBUG:skill change current skill3
+2018-07-11 14:50:11,500:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,500:DEBUG:skill branch-count
+2018-07-11 14:50:11,501:DEBUG:skill change current skill2
+2018-07-11 14:50:11,501:DEBUG:skill branch-count
+2018-07-11 14:50:11,501:DEBUG:skill change current skill2
+2018-07-11 14:50:11,501:DEBUG:skill branch-count
+2018-07-11 14:50:11,501:DEBUG:skill change current skill2
+2018-07-11 14:50:11,501:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,501:DEBUG:skill change negative number2
+2018-07-11 14:50:11,501:DEBUG:skill branch-count
+2018-07-11 14:50:11,501:DEBUG:skill change current skill2
+2018-07-11 14:50:11,502:DEBUG:skill branch-count
+2018-07-11 14:50:11,502:DEBUG:skill change current skill2
+2018-07-11 14:50:11,502:DEBUG:skill change nameSamuel   Adams     
+2018-07-11 14:50:11,502:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,502:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,502:DEBUG:skill change negative number4
+2018-07-11 14:50:11,502:DEBUG:skill branch-count
+2018-07-11 14:50:11,502:DEBUG:skill branch-count
+2018-07-11 14:50:11,502:DEBUG:skill change current skill3
+2018-07-11 14:50:11,502:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,503:DEBUG:skill branch-count
+2018-07-11 14:50:11,503:DEBUG:skill branch-count
+2018-07-11 14:50:11,503:DEBUG:skill change current skill2
+2018-07-11 14:50:11,503:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,503:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,503:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,503:DEBUG:skill change negative number5
+2018-07-11 14:50:11,503:DEBUG:skill branch-count
+2018-07-11 14:50:11,504:DEBUG:skill branch-count
+2018-07-11 14:50:11,504:DEBUG:skill branch-count
+2018-07-11 14:50:11,504:DEBUG:skill change current skill3
+2018-07-11 14:50:11,504:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,504:DEBUG:skill branch-count
+2018-07-11 14:50:11,504:DEBUG:skill change current skill2
+2018-07-11 14:50:11,504:DEBUG:skill branch-count
+2018-07-11 14:50:11,504:DEBUG:skill change current skill2
+2018-07-11 14:50:11,504:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,504:DEBUG:skill change negative number4
+2018-07-11 14:50:11,504:DEBUG:skill branch-count
+2018-07-11 14:50:11,505:DEBUG:skill branch-count
+2018-07-11 14:50:11,505:DEBUG:skill change current skill2
+2018-07-11 14:50:11,505:DEBUG:skill branch-count
+2018-07-11 14:50:11,505:DEBUG:skill branch-count
+2018-07-11 14:50:11,505:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,505:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,505:DEBUG:skill change nameAdam     Lawson    
+2018-07-11 14:50:11,505:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,505:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,506:DEBUG:skill change negative number3
+2018-07-11 14:50:11,506:DEBUG:skill branch-count
+2018-07-11 14:50:11,506:DEBUG:skill branch-count
+2018-07-11 14:50:11,506:DEBUG:skill branch-count
+2018-07-11 14:50:11,506:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,506:DEBUG:skill change negative number6
+2018-07-11 14:50:11,506:DEBUG:skill branch-count
+2018-07-11 14:50:11,506:DEBUG:skill branch-count
+2018-07-11 14:50:11,506:DEBUG:skill change current skill3
+2018-07-11 14:50:11,507:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,507:DEBUG:skill branch-count
+2018-07-11 14:50:11,507:DEBUG:skill change current skill2
+2018-07-11 14:50:11,507:DEBUG:skill branch-count
+2018-07-11 14:50:11,507:DEBUG:skill change current skill2
+2018-07-11 14:50:11,507:DEBUG:skill branch-count
+2018-07-11 14:50:11,507:DEBUG:skill change current skill2
+2018-07-11 14:50:11,507:DEBUG:skill branch-count
+2018-07-11 14:50:11,507:DEBUG:skill change current skill2
+2018-07-11 14:50:11,508:DEBUG:skill change nameAdam     Dixon     
+2018-07-11 14:50:11,508:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,508:DEBUG:skill change nameJim      Reiter    
+2018-07-11 14:50:11,508:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,508:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,508:DEBUG:skill change negative number5
+2018-07-11 14:50:11,508:DEBUG:skill branch-count
+2018-07-11 14:50:11,508:DEBUG:skill branch-count
+2018-07-11 14:50:11,508:DEBUG:skill change current skill4
+2018-07-11 14:50:11,509:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,509:DEBUG:skill branch-count
+2018-07-11 14:50:11,509:DEBUG:skill change current skill3
+2018-07-11 14:50:11,509:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,509:DEBUG:skill branch-count
+2018-07-11 14:50:11,509:DEBUG:skill branch-count
+2018-07-11 14:50:11,509:DEBUG:skill change current skill2
+2018-07-11 14:50:11,509:DEBUG:skill ==0 branch 
+2018-07-11 14:50:11,509:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,510:DEBUG:skill change negative number9
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill change current skill5
+2018-07-11 14:50:11,510:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill branch-count
+2018-07-11 14:50:11,510:DEBUG:skill change current skill4
+2018-07-11 14:50:11,511:DEBUG:skill change if greater than 2 hit
+2018-07-11 14:50:11,511:DEBUG:skill branch-count
+2018-07-11 14:50:11,511:DEBUG:skill branch-count
+2018-07-11 14:50:11,511:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,511:DEBUG:skill change negative number3
+2018-07-11 14:50:11,511:DEBUG:skill branch-count
+2018-07-11 14:50:11,511:DEBUG:skill branch-count
+2018-07-11 14:50:11,511:DEBUG:skill change current skill2
+2018-07-11 14:50:11,511:DEBUG:skill branch-count
+2018-07-11 14:50:11,512:DEBUG:skill change current skill2
+2018-07-11 14:50:11,512:DEBUG:skill branch not ==0 branch 
+2018-07-11 14:50:11,512:DEBUG:skill change negative number5
+2018-07-11 14:50:11,512:DEBUG:skill branch-count
+2018-07-11 14:50:11,512:DEBUG:skill branch-count
+2018-07-11 14:50:11,512:DEBUG:skill branch-count
+2018-07-11 14:50:11,512:DEBUG:skill change current skill2
+2018-07-11 14:50:11,512:DEBUG:skill branch-count
+2018-07-11 14:50:11,512:DEBUG:skill branch-count
+2018-07-11 14:50:17,195:DEBUG:Starting program
+2018-07-11 14:50:17,196:DEBUG:New game
+2018-07-11 14:50:17,196:DEBUG:   
+2018-07-11 14:50:17,197:DEBUG:Starting program
+2018-07-11 14:50:18,133:DEBUG:New game
+2018-07-11 14:50:18,133:DEBUG:   
+2018-07-11 14:50:18,133:DEBUG:RandomNumber 5
+2018-07-11 14:50:18,133:DEBUG:RandomNumber50 7
+2018-07-11 14:50:18,133:DEBUG:RandomNumber501 8
+2018-07-11 14:50:18,133:DEBUG:RandomNumber1 8
+2018-07-11 14:50:18,134:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,134:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 15 15 9 127 64
+2018-07-11 14:50:18,134:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,134:DEBUG:OurataScore 20
+2018-07-11 14:50:18,134:DEBUG:OppDefScore 61
+2018-07-11 14:50:18,134:DEBUG:OppAtaScore 61
+2018-07-11 14:50:18,134:DEBUG: GT else -ourcomarescore -41
+2018-07-11 14:50:18,134:DEBUG: else -ourgoals 1
+2018-07-11 14:50:18,135:DEBUG: GT 25 -oppcomarescore 38
+2018-07-11 14:50:18,135:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:18,135:DEBUG: Final Score 1
+2018-07-11 14:50:18,135:DEBUG: Final Score 3
+2018-07-11 14:50:18,165:DEBUG:New game
+2018-07-11 14:50:18,165:DEBUG:   
+2018-07-11 14:50:18,165:DEBUG:RandomNumber 5
+2018-07-11 14:50:18,165:DEBUG:RandomNumber50 7
+2018-07-11 14:50:18,166:DEBUG:RandomNumber501 5
+2018-07-11 14:50:18,166:DEBUG:RandomNumber1 10
+2018-07-11 14:50:18,166:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,166:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 13 12 10 138 89
+2018-07-11 14:50:18,166:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,166:DEBUG:OurataScore 20
+2018-07-11 14:50:18,166:DEBUG:OppDefScore 62
+2018-07-11 14:50:18,166:DEBUG:OppAtaScore 56
+2018-07-11 14:50:18,166:DEBUG: GT else -ourcomarescore -42
+2018-07-11 14:50:18,167:DEBUG: else -ourgoals 1
+2018-07-11 14:50:18,167:DEBUG: GT 25 -oppcomarescore 33
+2018-07-11 14:50:18,167:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:18,167:DEBUG: Final Score 1
+2018-07-11 14:50:18,167:DEBUG: Final Score 3
+2018-07-11 14:50:18,198:DEBUG:New game
+2018-07-11 14:50:18,199:DEBUG:   
+2018-07-11 14:50:18,199:DEBUG:RandomNumber 7
+2018-07-11 14:50:18,199:DEBUG:RandomNumber50 5
+2018-07-11 14:50:18,199:DEBUG:RandomNumber501 6
+2018-07-11 14:50:18,199:DEBUG:RandomNumber1 3
+2018-07-11 14:50:18,199:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,199:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 7 13 6 111 54
+2018-07-11 14:50:18,199:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,199:DEBUG:OurataScore 20
+2018-07-11 14:50:18,200:DEBUG:OppDefScore 40
+2018-07-11 14:50:18,200:DEBUG:OppAtaScore 45
+2018-07-11 14:50:18,200:DEBUG: GT else -ourcomarescore -20
+2018-07-11 14:50:18,200:DEBUG: else -ourgoals 1
+2018-07-11 14:50:18,200:DEBUG: GT 10 -oppcomarescore 22
+2018-07-11 14:50:18,200:DEBUG: GT 10 -oppgoals 2
+2018-07-11 14:50:18,200:DEBUG: Final Score 1
+2018-07-11 14:50:18,200:DEBUG: Final Score 2
+2018-07-11 14:50:18,487:DEBUG:New game
+2018-07-11 14:50:18,488:DEBUG:   
+2018-07-11 14:50:18,488:DEBUG:RandomNumber 2
+2018-07-11 14:50:18,488:DEBUG:RandomNumber50 6
+2018-07-11 14:50:18,488:DEBUG:RandomNumber501 3
+2018-07-11 14:50:18,488:DEBUG:RandomNumber1 9
+2018-07-11 14:50:18,488:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,488:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 13 12 15 58 81
+2018-07-11 14:50:18,489:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,489:DEBUG:OurataScore 20
+2018-07-11 14:50:18,489:DEBUG:OppDefScore 52
+2018-07-11 14:50:18,489:DEBUG:OppAtaScore 58
+2018-07-11 14:50:18,489:DEBUG: GT else -ourcomarescore -32
+2018-07-11 14:50:18,489:DEBUG: else -ourgoals 1
+2018-07-11 14:50:18,489:DEBUG: GT 25 -oppcomarescore 35
+2018-07-11 14:50:18,489:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:18,489:DEBUG: Final Score 1
+2018-07-11 14:50:18,490:DEBUG: Final Score 3
+2018-07-11 14:50:18,701:DEBUG:New game
+2018-07-11 14:50:18,702:DEBUG:   
+2018-07-11 14:50:18,702:DEBUG:RandomNumber 2
+2018-07-11 14:50:18,702:DEBUG:RandomNumber50 5
+2018-07-11 14:50:18,702:DEBUG:RandomNumber501 3
+2018-07-11 14:50:18,702:DEBUG:RandomNumber1 10
+2018-07-11 14:50:18,702:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,702:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 7 12 14 15 120 112
+2018-07-11 14:50:18,703:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,703:DEBUG:OurataScore 20
+2018-07-11 14:50:18,703:DEBUG:OppDefScore 56
+2018-07-11 14:50:18,703:DEBUG:OppAtaScore 65
+2018-07-11 14:50:18,703:DEBUG: GT else -ourcomarescore -36
+2018-07-11 14:50:18,703:DEBUG: else -ourgoals 1
+2018-07-11 14:50:18,703:DEBUG: GT 25 -oppcomarescore 42
+2018-07-11 14:50:18,703:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:18,703:DEBUG: Final Score 1
+2018-07-11 14:50:18,703:DEBUG: Final Score 3
+2018-07-11 14:50:18,891:DEBUG:New game
+2018-07-11 14:50:18,892:DEBUG:   
+2018-07-11 14:50:18,892:DEBUG:RandomNumber 8
+2018-07-11 14:50:18,892:DEBUG:RandomNumber50 4
+2018-07-11 14:50:18,892:DEBUG:RandomNumber501 4
+2018-07-11 14:50:18,892:DEBUG:RandomNumber1 9
+2018-07-11 14:50:18,892:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:18,892:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 15 12 15 13 123 133
+2018-07-11 14:50:18,892:DEBUG:OurDefScore 23
+2018-07-11 14:50:18,893:DEBUG:OurataScore 20
+2018-07-11 14:50:18,893:DEBUG:OppDefScore 64
+2018-07-11 14:50:18,893:DEBUG:OppAtaScore 65
+2018-07-11 14:50:18,893:DEBUG: GT else -ourcomarescore -44
+2018-07-11 14:50:18,893:DEBUG: else -ourgoals 2
+2018-07-11 14:50:18,893:DEBUG: GT 25 -oppcomarescore 42
+2018-07-11 14:50:18,893:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:50:18,893:DEBUG: Final Score 2
+2018-07-11 14:50:18,893:DEBUG: Final Score 2
+2018-07-11 14:50:19,077:DEBUG:New game
+2018-07-11 14:50:19,077:DEBUG:   
+2018-07-11 14:50:19,078:DEBUG:RandomNumber 4
+2018-07-11 14:50:19,078:DEBUG:RandomNumber50 3
+2018-07-11 14:50:19,078:DEBUG:RandomNumber501 9
+2018-07-11 14:50:19,078:DEBUG:RandomNumber1 5
+2018-07-11 14:50:19,078:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,078:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 12 12 14 14 112 104
+2018-07-11 14:50:19,078:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,078:DEBUG:OurataScore 20
+2018-07-11 14:50:19,079:DEBUG:OppDefScore 60
+2018-07-11 14:50:19,079:DEBUG:OppAtaScore 63
+2018-07-11 14:50:19,079:DEBUG: GT else -ourcomarescore -40
+2018-07-11 14:50:19,079:DEBUG: else -ourgoals 2
+2018-07-11 14:50:19,079:DEBUG: GT 25 -oppcomarescore 40
+2018-07-11 14:50:19,079:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:19,079:DEBUG: Final Score 2
+2018-07-11 14:50:19,079:DEBUG: Final Score 3
+2018-07-11 14:50:19,263:DEBUG:New game
+2018-07-11 14:50:19,264:DEBUG:   
+2018-07-11 14:50:19,264:DEBUG:RandomNumber 8
+2018-07-11 14:50:19,264:DEBUG:RandomNumber50 8
+2018-07-11 14:50:19,264:DEBUG:RandomNumber501 9
+2018-07-11 14:50:19,264:DEBUG:RandomNumber1 5
+2018-07-11 14:50:19,264:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,264:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 13 10 11 11 103 141
+2018-07-11 14:50:19,264:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,264:DEBUG:OurataScore 20
+2018-07-11 14:50:19,265:DEBUG:OppDefScore 54
+2018-07-11 14:50:19,265:DEBUG:OppAtaScore 53
+2018-07-11 14:50:19,265:DEBUG: GT else -ourcomarescore -34
+2018-07-11 14:50:19,265:DEBUG: else -ourgoals 0
+2018-07-11 14:50:19,265:DEBUG: GT 25 -oppcomarescore 30
+2018-07-11 14:50:19,265:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:50:19,265:DEBUG: Final Score 0
+2018-07-11 14:50:19,265:DEBUG: Final Score 2
+2018-07-11 14:50:19,451:DEBUG:New game
+2018-07-11 14:50:19,452:DEBUG:   
+2018-07-11 14:50:19,452:DEBUG:RandomNumber 9
+2018-07-11 14:50:19,452:DEBUG:RandomNumber50 10
+2018-07-11 14:50:19,452:DEBUG:RandomNumber501 10
+2018-07-11 14:50:19,452:DEBUG:RandomNumber1 10
+2018-07-11 14:50:19,452:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,452:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 10 12 11 15 118 125
+2018-07-11 14:50:19,452:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,452:DEBUG:OurataScore 20
+2018-07-11 14:50:19,453:DEBUG:OppDefScore 57
+2018-07-11 14:50:19,453:DEBUG:OppAtaScore 60
+2018-07-11 14:50:19,453:DEBUG: GT else -ourcomarescore -37
+2018-07-11 14:50:19,453:DEBUG: else -ourgoals 0
+2018-07-11 14:50:19,453:DEBUG: GT 25 -oppcomarescore 37
+2018-07-11 14:50:19,453:DEBUG: GT 25 -oppgoals 2
+2018-07-11 14:50:19,453:DEBUG: Final Score 0
+2018-07-11 14:50:19,453:DEBUG: Final Score 2
+2018-07-11 14:50:19,632:DEBUG:New game
+2018-07-11 14:50:19,632:DEBUG:   
+2018-07-11 14:50:19,632:DEBUG:RandomNumber 7
+2018-07-11 14:50:19,633:DEBUG:RandomNumber50 3
+2018-07-11 14:50:19,633:DEBUG:RandomNumber501 4
+2018-07-11 14:50:19,633:DEBUG:RandomNumber1 10
+2018-07-11 14:50:19,633:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,633:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 17 15 18 153 200
+2018-07-11 14:50:19,633:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,633:DEBUG:OurataScore 20
+2018-07-11 14:50:19,633:DEBUG:OppDefScore 81
+2018-07-11 14:50:19,633:DEBUG:OppAtaScore 80
+2018-07-11 14:50:19,634:DEBUG: GT else -ourcomarescore -61
+2018-07-11 14:50:19,634:DEBUG: else -ourgoals 2
+2018-07-11 14:50:19,634:DEBUG: GT 50 -oppcomarescore 57
+2018-07-11 14:50:19,634:DEBUG: GT 50 -oppgoals 2
+2018-07-11 14:50:19,634:DEBUG: Final Score 2
+2018-07-11 14:50:19,634:DEBUG: Final Score 2
+2018-07-11 14:50:19,817:DEBUG:New game
+2018-07-11 14:50:19,817:DEBUG:   
+2018-07-11 14:50:19,817:DEBUG:RandomNumber 10
+2018-07-11 14:50:19,817:DEBUG:RandomNumber50 10
+2018-07-11 14:50:19,817:DEBUG:RandomNumber501 6
+2018-07-11 14:50:19,817:DEBUG:RandomNumber1 3
+2018-07-11 14:50:19,818:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,818:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 17 17 18 18 176 162
+2018-07-11 14:50:19,818:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,818:DEBUG:OurataScore 20
+2018-07-11 14:50:19,818:DEBUG:OppDefScore 84
+2018-07-11 14:50:19,818:DEBUG:OppAtaScore 86
+2018-07-11 14:50:19,818:DEBUG: GT else -ourcomarescore -64
+2018-07-11 14:50:19,818:DEBUG: else -ourgoals 0
+2018-07-11 14:50:19,819:DEBUG: GT 50 -oppcomarescore 63
+2018-07-11 14:50:19,819:DEBUG: GT 50 -oppgoals 0
+2018-07-11 14:50:19,819:DEBUG: Final Score 1
+2018-07-11 14:50:19,819:DEBUG: Final Score 0
+2018-07-11 14:50:19,997:DEBUG:New game
+2018-07-11 14:50:19,997:DEBUG:   
+2018-07-11 14:50:19,998:DEBUG:RandomNumber 7
+2018-07-11 14:50:19,998:DEBUG:RandomNumber50 10
+2018-07-11 14:50:19,998:DEBUG:RandomNumber501 2
+2018-07-11 14:50:19,998:DEBUG:RandomNumber1 2
+2018-07-11 14:50:19,998:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:19,998:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 13 14 14 182 127
+2018-07-11 14:50:19,998:DEBUG:OurDefScore 23
+2018-07-11 14:50:19,998:DEBUG:OurataScore 20
+2018-07-11 14:50:19,998:DEBUG:OppDefScore 71
+2018-07-11 14:50:19,999:DEBUG:OppAtaScore 69
+2018-07-11 14:50:19,999:DEBUG: GT else -ourcomarescore -51
+2018-07-11 14:50:19,999:DEBUG: else -ourgoals 0
+2018-07-11 14:50:19,999:DEBUG: GT 25 -oppcomarescore 46
+2018-07-11 14:50:19,999:DEBUG: GT 25 -oppgoals 3
+2018-07-11 14:50:19,999:DEBUG: Final Score 0
+2018-07-11 14:50:19,999:DEBUG: Final Score 3
+2018-07-11 14:50:20,191:DEBUG:New game
+2018-07-11 14:50:20,192:DEBUG:   
+2018-07-11 14:50:20,192:DEBUG:RandomNumber 5
+2018-07-11 14:50:20,192:DEBUG:RandomNumber50 6
+2018-07-11 14:50:20,192:DEBUG:RandomNumber501 10
+2018-07-11 14:50:20,192:DEBUG:RandomNumber1 10
+2018-07-11 14:50:20,192:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:20,192:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 16 15 19 20 164 172
+2018-07-11 14:50:20,192:DEBUG:OurDefScore 23
+2018-07-11 14:50:20,192:DEBUG:OurataScore 20
+2018-07-11 14:50:20,193:DEBUG:OppDefScore 81
+2018-07-11 14:50:20,193:DEBUG:OppAtaScore 88
+2018-07-11 14:50:20,193:DEBUG: GT else -ourcomarescore -61
+2018-07-11 14:50:20,193:DEBUG: else -ourgoals 1
+2018-07-11 14:50:20,193:DEBUG: GT 50 -oppcomarescore 65
+2018-07-11 14:50:20,193:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:50:20,193:DEBUG: Final Score 1
+2018-07-11 14:50:20,193:DEBUG: Final Score 3
+2018-07-11 14:50:20,391:DEBUG:New game
+2018-07-11 14:50:20,392:DEBUG:   
+2018-07-11 14:50:20,392:DEBUG:RandomNumber 1
+2018-07-11 14:50:20,392:DEBUG:RandomNumber50 1
+2018-07-11 14:50:20,392:DEBUG:RandomNumber501 3
+2018-07-11 14:50:20,392:DEBUG:RandomNumber1 9
+2018-07-11 14:50:20,392:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:20,392:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 16 17 17 19 148 189
+2018-07-11 14:50:20,393:DEBUG:OurDefScore 23
+2018-07-11 14:50:20,393:DEBUG:OurataScore 20
+2018-07-11 14:50:20,393:DEBUG:OppDefScore 82
+2018-07-11 14:50:20,393:DEBUG:OppAtaScore 84
+2018-07-11 14:50:20,393:DEBUG: GT else -ourcomarescore -62
+2018-07-11 14:50:20,393:DEBUG: else -ourgoals 3
+2018-07-11 14:50:20,393:DEBUG: GT 50 -oppcomarescore 61
+2018-07-11 14:50:20,393:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:50:20,394:DEBUG: Final Score 3
+2018-07-11 14:50:20,394:DEBUG: Final Score 5
+2018-07-11 14:50:20,589:DEBUG:New game
+2018-07-11 14:50:20,589:DEBUG:   
+2018-07-11 14:50:20,590:DEBUG:RandomNumber 1
+2018-07-11 14:50:20,590:DEBUG:RandomNumber50 7
+2018-07-11 14:50:20,590:DEBUG:RandomNumber501 6
+2018-07-11 14:50:20,590:DEBUG:RandomNumber1 6
+2018-07-11 14:50:20,590:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:20,590:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 19 19 19 20 142 190
+2018-07-11 14:50:20,590:DEBUG:OurDefScore 23
+2018-07-11 14:50:20,590:DEBUG:OurataScore 20
+2018-07-11 14:50:20,590:DEBUG:OppDefScore 90
+2018-07-11 14:50:20,591:DEBUG:OppAtaScore 91
+2018-07-11 14:50:20,591:DEBUG: GT else -ourcomarescore -70
+2018-07-11 14:50:20,591:DEBUG: else -ourgoals 1
+2018-07-11 14:50:20,591:DEBUG: GT 50 -oppcomarescore 68
+2018-07-11 14:50:20,591:DEBUG: GT 50 -oppgoals 5
+2018-07-11 14:50:20,591:DEBUG: Final Score 1
+2018-07-11 14:50:20,591:DEBUG: Final Score 5
+2018-07-11 14:50:20,967:DEBUG:New game
+2018-07-11 14:50:20,968:DEBUG:   
+2018-07-11 14:50:20,968:DEBUG:RandomNumber 5
+2018-07-11 14:50:20,968:DEBUG:RandomNumber50 4
+2018-07-11 14:50:20,968:DEBUG:RandomNumber501 6
+2018-07-11 14:50:20,968:DEBUG:RandomNumber1 9
+2018-07-11 14:50:20,968:DEBUG:ourgk,ourdef,,ourmid,ourata,ourchar,ourexp, 5 4 3 3 122 28
+2018-07-11 14:50:20,968:DEBUG:oppgk,oppdef,oppmid,oppata,oppchar,oppexp 18 20 16 19 189 185
+2018-07-11 14:50:20,969:DEBUG:OurDefScore 23
+2018-07-11 14:50:20,969:DEBUG:OurataScore 20
+2018-07-11 14:50:20,969:DEBUG:OppDefScore 90
+2018-07-11 14:50:20,969:DEBUG:OppAtaScore 87
+2018-07-11 14:50:20,969:DEBUG: GT else -ourcomarescore -70
+2018-07-11 14:50:20,969:DEBUG: else -ourgoals 2
+2018-07-11 14:50:20,969:DEBUG: GT 50 -oppcomarescore 64
+2018-07-11 14:50:20,969:DEBUG: GT 50 -oppgoals 3
+2018-07-11 14:50:20,969:DEBUG: Final Score 2
+2018-07-11 14:50:20,970:DEBUG: Final Score 3
