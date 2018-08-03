@@ -1,7 +1,6 @@
 #!/usr/bin/python3.4
 import func_create_players
 import os
-import logging
 
 
 ####Functions
@@ -31,6 +30,8 @@ printo="99"
 
 
 def teams(gk,defe,mid,ata,createteam,printo):
+
+	import mylog
 
 	incrmentalnum=-1
 	checkp="nty"
@@ -189,13 +190,24 @@ def teams(gk,defe,mid,ata,createteam,printo):
 	erating=expfinalscore
 	eteamchar=charfinalscore
 
+
+	
+	mylog.fmlog(detail=str(("Gk Score ", gkfinalscore)), verbosity=1)
+	mylog.fmlog(detail=str(("defe Score ", deffinalscore)), verbosity=1)
+	mylog.fmlog(detail=str(("mid Score ", midfinalscore)), verbosity=1)
+	mylog.fmlog(detail=str(("ata Score ", atafinalscore)), verbosity=1)
+	mylog.fmlog(detail=str(("exp Score ", expfinalscore)), verbosity=1)
+	mylog.fmlog(detail=str(("char Score ", charfinalscore)), verbosity=1)
+
 	ourattackscore=int(((deffinalscore*4)+(midfinalscore*8)+(atafinalscore*6)+(teamexp/7)+(teamchar/4))/4.5)
 	ourdefscore=int(((gkfinalscore*4)+(deffinalscore*8)+(midfinalscore*4)+(atafinalscore*2)+(teamexp/7)+(teamchar/4))/4.5)
 
 	print ("Team Game day stats ")
 	print ("#########\n")
 	print ("Match Day Attack Score",ourattackscore)
+	mylog.fmlog(detail=str(("total att Score ", ourattackscore)), verbosity=1)
 	print ("Match Day Defense Score",ourdefscore)
+	mylog.fmlog(detail=str(("total def Score ", ourdefscore)), verbosity=1)
 	print ("")
 	
 	return (gkscore,defscore,midscore,atascore,teamchar,rating)	

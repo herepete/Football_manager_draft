@@ -1,10 +1,6 @@
 #!/usr/bin/python3.4
 
 import random
-import logging
-#logging.basicConfig(filename="skills.log", level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
-#logging.basicConfig(filename="create_players.log", level=logging.CRITICAL, format="%(asctime)s:%(levelname)s:%(message)s")
-logging.debug("Starting program")
 
 
 def changes(ourteam,playoffexppoints):
@@ -161,31 +157,24 @@ def changes(ourteam,playoffexppoints):
 			newrecord=""
 			newrecord= nposition+" "+name+" "+increasetext+" "+str(singlerecord[3])+" "+age+"\n"
 			changesp=changesp+newrecord
-			logging.debug("skill change name{}" .format(name))
 			pointsadded="1"
 
 			 
 		if negativepoints == 0 or int(pointsadded) > 0:
 			changes="1"
-			logging.debug("skill ==0 branch ")
 
 		else:
 			count=0
 			changed=0
 			pointslost=0
-			logging.debug("skill branch not ==0 branch ")
-			logging.debug("skill change negative number{}" .format(negativepoints))
 			while ( negativepoints > count):
 				count=count+1
 				nrandomnumber = random.randint (0,1)
-				logging.debug("skill branch-count{}" .format(name))
 #				name=singlerecord[1]+singlerecord[2]
 #				changesn=changesn+name+"\n"
 				if nrandomnumber == 1:
 					skill=int(singlerecord[3])
-					logging.debug("skill change current skill{}" .format(skill))
 					if skill > 2: # stop a negative skill number and an infinte loop
-						logging.debug("skill change if greater than 2 hit")
 						singlerecord[3]="{:<2}".format(skill - 1)
 						changed=1
 						pointslost=pointslost+1
