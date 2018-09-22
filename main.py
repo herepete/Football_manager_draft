@@ -9,13 +9,14 @@ import os
 import random
 import func_create_players
 import func_gameday
+import func_gameday_overtime
 import func_teamratings
 import func_endofseason
 import func_oppteamscore
 import func_playoffs
 import mylog
-
-
+import func_faanddraft
+import pdb
 
 
 os.system('clear')
@@ -58,6 +59,7 @@ def teamreport1(createteam,printto):
 
 def draft(myteam,draft,typeofdraft):
 	### print Draft team
+	printouttod=typeofdraft
 	os.system('clear')
 	reportneeded=input("Press enter button to continue or r for team report or t for squad...\n")
 	os.system('clear')
@@ -153,6 +155,7 @@ def draft(myteam,draft,typeofdraft):
 		os.system('clear')
 		# get person drafted
 		print ("You have Chosen...\n")
+		mylog.fmlog(detail=str(("Type of Draft ", typeofdraft)), verbosity=2)
 
 		print ("P    Name                S  MS C  E  A")
 
@@ -161,6 +164,12 @@ def draft(myteam,draft,typeofdraft):
 			for j in range(len(draft[i])):
 				if select1 == positioninteam1:
 					print(draft[i][j], end=' ')
+					b=(draft[i][j])
+					b1=(draft[i])
+					b2=(draft[j])
+		#			mylog.fmlog(detail=str(("Player Drafted ", b)), verbosity=2)
+			#	mylog.fmlog(detail=str(("Player Drafted ", b)), verbosity=2)
+
 			#del draft[i]
 					z=1
 				else:
@@ -168,7 +177,10 @@ def draft(myteam,draft,typeofdraft):
 			if z == 1:
         	        	print ()
 
-
+		badstring=str(printouttod)+','+str(b1)
+		mylog.fmlog(detail=str(("Player Drafted %s"%b )), verbosity=21)
+		mylog.fmlog(detail=str(("Player Drafted ",badstring)), verbosity=22)
+#		mylog.fmlog(detail=str(("Player Drafted %s"%b2 )), verbosity=23)
 
 	##############who to replace
 
@@ -238,6 +250,15 @@ def draft(myteam,draft,typeofdraft):
 	else:
 		draftreturned=createteam,
 		return createteam,draftreturned
+
+############## print draft picks
+
+def draftpicks(firstroundthisyear,secondroundthisyear,thirdoroundthisyear):
+	print ("you have First round this year=",firstroundthisyear)
+	print ("you have Second round this year=",secondroundthisyear)
+	print ("you have Third round this year=",thirdoroundthisyear)
+
+
 
 
 #######function opposition team
@@ -378,35 +399,49 @@ for1 = 0
 against = 0
 points = 0
 goald =0
-season = "W   D   L   F   A   P   GD\n"
+season = "W   D   L   F   A   P   GD     GK  DE  MI  ST  CH   EX\n"
 os.system('rm log.txt')
 ############## Intro
-
+os.system('clear')
 print ("""Welcome to Football Manager Draft
 ===============
 This game is a mashup of football and NFL
-The aim of the game is to improve your team through the draft (at the end of each season)
-Your players will also gain/lose skills at the end of each season based on age/character/experience of them and the team/skill/max skill 
-You are trying to win as many games as possible hopefully one day you can win the superbowl :)
-You will have 20 season's to play and 16 games in each season
-If you win more than 8 games you will enter the playoffs with a chance to win the superbowl
-The results of your team is based on your team score and the opposition team score & a degree of randomness""")
-print ("")
-print ("Draft")
-print ("#######\n")
-print ("there are 4 rounds to the draft, each round has 16 players to choose from:")
-print ("free agency, older players -Mix of skills ")
-print ("first round, young players,- High skills  ")
-print ("second round, young players- Medium skills ")
-print ("third  round, youngest range of players -Low Skill set\n")
+The aim of the game is to win the Superbowl
+And to give you 30ish mins of fun.
 
-print ("here is your team, at the end of every season you will have a chance to upgrade the team...")
-print ("You may also get offers from other teams to swap draft picks")
+Each game will by default last 20 seasons (a lot of these seeing can be changed through pressing a)
+You will be given a randomised poor squad at the begening of the game.
+
+A squad constist of 3 Goalkeeper,8 Defenders,7 Midfielders & 6 Atackers 
+Your team score is based on the skill ratings of your top 11 players in a 4-4-2 formation + the Experience and Character of the whole squad.
+
+Typically a top team score is 100.
+GK,Def,Mid contribute to def scores (with different weighings)
+Def,Mid,Str contribute to ata scores (with different weighings)
+
+If you draw a game the game will go to overtime to try and force a result.
+
+You will play 16 games in a season and if you win enough games you will enter the playoffs (depending on the number of wins you will enter at a different point)
+The playoff has 4 rounds, with the 4th being the Superbowl.
+
+After the season has finished your players will lose/gain skill based on age/character/experience/luck.
+At a random(ish!) age players skills will start to drop as they become to old (each game will have an 'old' value)
+
+Then you will have a chance to improve your team by drafting young players through the draft or you can swap your picks for established players.
+There are 3 rounds to the draft , with the 1st Round having players with better skills.
+You can swap your players for extra draft picks.
+You can move up and down the draft (i.e if you have swapped your players for extra picks you can create another first or second pick, so if you have 2 great GK you could trade one for another pick to help strethen another position)
+
+And then you start a new season.
+
+
+Good luck :) """)
 
 advancedsettings=input ("\nPress a to enter advanced settings or anything else to continue\n")
 
 ##############
 #defaults 
+# adding here because they may be overwritten by menu options
 stp=20 # number of seasons
 maxa=33 # max age
 mina=25 # min age
@@ -415,12 +450,40 @@ maxs=5 # skill
 maxxs=20 #maxskill
 exp=0 #experience
 
+seasonsplayed=0
+
+# set drafting defaults
+firstroundthisyear=1
+secondroundthisyear=1
+thirdoroundthisyear=1
+firstroundnextyear=1
+secondroundnextyear=1
+thirdoroundnextyear=1
+
 
 #############
-
+os.system('clear')
 if advancedsettings=="a":
 	while True:
-		whattodo=input("\nPress\n e to exit this menu\n s to change numbers of seasons to play\n o to get a old very good team \n y to get a good young team...\n a to get an amazing team \n  ")
+		os.system('clear')
+		print ("Default settings")
+		print ("================")
+		print ("Number of seasons to play=",stp)
+		print ("Start in season=",seasonsplayed)
+		print ("Max age of your initial team=",maxa)
+		print ("Min age of your inital team=",mina)
+		print ("Min skill of your inital team=",mins)
+		print ("Max Skill of your inital team=",maxs)
+		print ("First round draft picks first year=",firstroundthisyear)
+		print ("Second round draft picks first year=",secondroundthisyear)
+		print ("Third round draft picks first year", thirdoroundthisyear)
+		print ("================")
+
+
+#		whattodo=input("\nPress\n e to Save & Exit this menu\n s to change numbers of seasons to play\n o to get a old very good team \n y to get a good young team...\n a to get an amazing team \n t to change the season you start in\n c Clevland Browns Scenario (Large Draft Capital in the first year only)\n w Work the draft,get 2 second and 2 third round picks per year\n r Random team\n")
+		whattodo=input("\nPress\n e to Save & Exit this menu\n s to change numbers of seasons to play\n o to get a old very good team \n y to get a good young team...\n a to get an amazing team \n r Random team\n t to change the season you start in\n c Clevland Browns Scenario (Large Draft Capital in the first year only)\n w Work the draft,get 2 second and 2 third round picks per year\n m minimize draft to help stuff stop scrolling of the page which is not good when using screen")
+
+
 		if whattodo=="e":
 			break
 		if whattodo=="s":
@@ -436,6 +499,17 @@ if advancedsettings=="a":
 			exp=2
 			
 			print ("Changes made")
+
+		if whattodo=="r":
+			maxa=33
+			mina=18
+			mins=8
+			maxs=20
+			maxxs=20
+			exp=10
+			print ("Changes made")
+
+
 		if whattodo=="o": 
 			maxa=35
 			mina=28
@@ -452,18 +526,39 @@ if advancedsettings=="a":
 			maxxs=20
 			exp=10
 			print ("Changes made")
+		if whattodo=="t":
+			numberofseasonsin=input("which Season do you want to start in?\n")
+			seasonsplayed=int(numberofseasonsin)
+			print ("Changes made")
+		if whattodo=="c":
+			firstroundthisyear=2
+			secondroundthisyear=2
+			thirdoroundthisyear=1
+		if whattodo=="w":
+			firstroundthisyear=0
+			secondroundthisyear=2
+			thirdoroundthisyear=2
+			firstroundnextyear=0
+			secondroundnextyear=2
+			thirdoroundnextyear=2
 
+			
+			print ("Changes made")
+
+
+			
 
 #		else:
 #			print ("\nInvalid option try again\n",whattodo)
 			
 
-	
+#os.system=('clear')
 
 
 ############### Create initial team
 
-createteam=func_create_players.rn3 (gk =3, defe =8, mid =7, ata =6, exp =exp, maxskill =maxxs, skill =maxs, skillpeak =0, char =10, maxage=maxa, minskill=mins,weighted=0,minage=mina)
+print ("Here is your team...\n")
+createteam=func_create_players.rn3 (gk =3, defe =8, mid =7, ata =6, exp =exp, maxskill =maxxs, skill =maxs, skillpeak =0, char =10, maxage=maxa, minskill=mins,weighted=0,minage=mina,minrchar=0)
 #createteam=func_create_players.rn3 (gk =3, defe =7, mid =7, ata =5, exp =10, maxskill =19, skill =19, skillpeak =0, char =10, maxage=21, minskill=14,weighted=0,minage=18)
 print ("P    Name                S  MS C  E  A")
 for i in range(len(createteam)):
@@ -488,7 +583,7 @@ print ("")
 #############
 
 input ("Press any button to start the first season...\n")
-os.system('clear')
+#os.system('clear')
 
 ############
 
@@ -502,10 +597,18 @@ totalpoints = 0
 totalgoaldifference = 0
 totalplayoffsnsb = 0
 totalsuperbowwins = 0
+# set drafting defaults
+#firstroundthisyear=1
+#secondroundthisyear=1
+#thirdoroundthisyear=1
+#firstroundnextyear=1
+#secondroundnextyear=1
+#thirdoroundnextyear=1
+
 
 # move higher up the tree so user can change this without it being overwritten
 seasontoplay=stp
-seasonsplayed=0
+#seasonsplayed=0 moved to memory
 #os.system('clear')
 while ( seasonsplayed < seasontoplay):
 	seasonsplayed = seasonsplayed + 1
@@ -549,34 +652,30 @@ while ( seasonsplayed < seasontoplay):
 			os.system('clear')
 ####################### game day
 #get my scores
-		gkscore,defscore,midscore,atascore,teamchar,rating=func_teamratings.teams(gk =1, defe=2, mid=3, ata=4, createteam=createteam, printo="nty")
-
-#		ourdefc=(gkscore*3)+(defscore*2)+midscore
-#		ouratac=(atascore*3)+(midscore*2)+defscore
-
+		gkscore,defscore,midscore,atascore,eteamchar,erating,avgage=func_teamratings.teams(gk =1, defe=2, mid=3, ata=4, createteam=createteam, printo="nty")
+		#gkscore,defscore,midscore,atascore,teamchar,rating=func_teamratings.teams(gk =1, defe=2, mid=3, ata=4, createteam=createteam, printo="nty")
 
 		forscore="0"
-#		against="0"
 		os.system('clear')
 		print ("Season {} Game {} " .format(seasonsplayed,ng))
 		print ("============================================")
 
-		forscore,against=func_gameday.bat(ourgk=gkscore,oppgk=oppgk,ourdef=defscore,oppdef=oppdef,ourmid=midscore,oppmid=oppmid,ourata=atascore,oppata=oppata,ourchar=teamchar,oppchar=oppchar,ourexp=rating,oppexp=oppexp)
+		forscore,against=func_gameday.bat(ourgk=gkscore,oppgk=oppgk,ourdef=defscore,oppdef=oppdef,ourmid=midscore,oppmid=oppmid,ourata=atascore,oppata=oppata,ourchar=eteamchar,oppchar=oppchar,ourexp=erating,oppexp=oppexp)
 		print ("The Score was",forscore,against)
 
-		#tally scores
-#		print ("for1-0=",for1)
+#### insert me here
+
+		if (str(forscore)==str(against)):
+			print ("\nGoing to Overtime")
+			forscore,against=func_gameday_overtime.bat(ourgk=gkscore,oppgk=oppgk,ourdef=defscore,oppdef=oppdef,ourmid=midscore,oppmid=oppmid,ourata=atascore,oppata=oppata,ourchar=eteamchar,oppchar=oppchar,ourexp=erating,oppexp=oppexp,ourprevgoals=int(forscore),oppprevgoals=int(against))
+			print ("The Score was",forscore,against)
+
+
+
+
 		for1 = int(forscore) + int(for1)
-#		print ("for1-1=",for1)
-#		print ("against1-0=",against1)
 		against1 = int(against1) + int(against)
-#		print ("against1-1=",against1)
-#		print ("goald1-0=",goald)	
-#		goald = int(goald) + int(for1) - int(against1)
-#		print ("goald1-1=",goald)	
-#		print ("totalgoaldifference=",totalgoaldifference)	
 		totalgoaldifference = int(totalgoaldifference) + int(forscore)-int(against)
-#		print ("totalgoaldifference=",totalgoaldifference)	
 		if (str(forscore)==str(against)):
 			draw = draw + 1
 			points = points + 1
@@ -599,13 +698,13 @@ while ( seasonsplayed < seasontoplay):
 		print ("")
 		print ("============================================")
 		if seasonsplayed > 1:
-			print ("Previous seasons result (most recent at the bottom of the list)")
+			print ("Previous seasons result (most recent at the bottom of the list)& Teamstats")
 			print (season)
 
 
 	ng = 0		
 # superbowl and playoff logic
-	seasonoutcome,seasonexp=func_playoffs.bat(ourgk=gkscore,ourdef=defscore,ourmid=midscore,ourata=atascore,ourchar=teamchar,ourexp=rating,ourwins=win)
+	seasonoutcome,seasonexp=func_playoffs.bat(ourgk=gkscore,ourdef=defscore,ourmid=midscore,ourata=atascore,ourchar=eteamchar,ourexp=erating,ourwins=win,season=seasonsplayed)
 	
 	mylog.fmlog(detail=str(("Log-Season Wins ", win)), verbosity=1)	
 	mylog.fmlog(detail=str(("Log-Season Outcome ", seasonoutcome)), verbosity=1)	
@@ -618,7 +717,11 @@ while ( seasonsplayed < seasontoplay):
  
 	print ("End of season...",seasonsplayed)
 #	teamreport1(createteam=createteam,printto="yp")
-	input("please press a button to continue...\n")
+	while True:
+		continuetonextstep=input("please press c button to continue...\n")
+		if continuetonextstep=="c":
+			break
+	
 	
 	
 	# end of season stats
@@ -633,11 +736,19 @@ while ( seasonsplayed < seasontoplay):
 	againsts="{:<2}".format(against1)
 	pointss="{:<2}".format(points)
 	goald=int(for1)-int(against1)
-	goalds="{:<2}".format(goald)
+	goalds="{:<3}".format(goald)
+
+	gkscores="{:<2}".format(gkscore)
+	defscores="{:<2}".format(defscore)
+	midscores="{:<2}".format(midscore)
+	atascores="{:<2}".format(atascore)
+	teamchars="{:<2}".format(eteamchar)
+	myteamexps="{:<2}".format(erating)
+
 
 
 # seasons results
-	season +=str(wins) + space1 + str(draws)+ space1 + str(losts)+ space1  + str(for1s) +space1 +str(againsts) +space1 + str(pointss) +space1 +str(goalds)+space1 + seasonoutcome + "\n"
+	season +=str(wins) + space1 + str(draws)+ space1 + str(losts)+ space1  + str(for1s) +space1 +str(againsts) +space1 + str(pointss) +space1 +str(goalds) +space1 +space1  + str(gkscores)+space1  + str(defscores) +space1 + str(midscores) +space1 + str(atascores) +space1 + str(teamchars) +space1 +str(myteamexps) +space1  + seasonoutcome + "\n"
 	seasonoutcome=""
 
 #add break to stop darft in last season
@@ -652,7 +763,7 @@ while ( seasonsplayed < seasontoplay):
 
 #	temppop=1
 
-	createteam,changesp,changesn,changesms=func_endofseason.changes(ourteam=createteam,playoffexppoints=seasonexp)
+	createteam,changesp,changesn,changesms=func_endofseason.changes(ourteam=createteam,playoffexppoints=seasonexp,seasonnumber=seasonsplayed)
 	
 	print ("\nPlayers with increased skills\n")
 	print ("P    Name                SC NS A")
@@ -680,11 +791,25 @@ while ( seasonsplayed < seasontoplay):
 
 
 	input("please press a button to continue...\n")
-# Draft
+### Draft
 # random number between 1 and x to add a bit of spice to the draft (the further you get in the game the less useful a 3rd round draft is)
 # season 1-5  x= 4
 # season 6-10 x= 5
 # season > 11 x=7
+#	firstroundthisyear=1
+#	secondroundthisyear=1
+#	thirdoroundthisyear=1
+#	firstroundnextyear=1
+#	secondroundnextyear=1
+#	thirdoroundnextyear=1
+
+# moving draft higher to allow draft analysis
+	
+	draft1=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =20, skill =14, skillpeak =0, char =10, maxage=22, minskill=10,weighted=0,minage=19,minrchar=6)
+
+	input("You now have the option to swap your players for extra draft picks")
+	createteam,firstroundthisyear,secondroundthisyear,thirdoroundthisyear=func_faanddraft.sell_player(ourteam=createteam,firstroundthisyear=firstroundthisyear,secondroundthisyear=secondroundthisyear,thirdoroundthisyear=thirdoroundthisyear,draft1=draft1,season=seasonsplayed)
+
 
 # if  1/5/6/7 offer - swap  1 star for all picks (if not accepted go down path of d,1,2,3 as "normal")
 #     else
@@ -692,184 +817,72 @@ while ( seasonsplayed < seasontoplay):
 #       if 2 - swap 2nd and 3rd round picks for another 1st round (this offer feels to good , further tweaks may be needed) if not accepted go down path of 2 and 3 as "normal
 #       if 3 - swap 2nd and 3rd round picks for a squad player if not accepted go down path of 2 and 3 as "normal
 #       if 4 - normal draft
-
-	randomnumberd=random.randint (1,4)
-	#randomnumberd=1
-	if seasonsplayed > 5:
-		randomnumberd=random.randint (1,5)
-	if seasonsplayed > 10:
-		randomnumberd=random.randint (1,7)
-	if bseasonoutcome == 1:
-		randomnumberd=random.randint=7
+	os.system('clear')
+	draftpicks(firstroundthisyear=firstroundthisyear,secondroundthisyear=secondroundthisyear,thirdoroundthisyear=thirdoroundthisyear)
+	input("Press a button to continue\n")
+#	print ("you have First round this year=",firstroundthisyear)
+#	print ("you have Second round this year=",secondroundthisyear)
+#	print ("you have Third round this year=",thirdoroundthisyear)
 
 
-	randomnumberdp=random.randint (1,4)
+	rngkd=random.randint(2,4)
+	rnded=random.randint(2,4)
+	rnmid=random.randint(2,4)
+	rnstd=random.randint(2,4)
 
-	#randomnumberdp=4
-
-	if randomnumberd == 1 or randomnumberd == 5 or randomnumberd == 6 or randomnumberd == 7:
-
-		gkdp=0
-		ddp=0
-		mdp=0
-		adp=0
-		if randomnumberdp == 1:
-			gkdp=1
-			ddp=1
-			mdp=1
-		elif randomnumberdp == 2:
-			ddp=2
-			gkdp=1
-		elif randomnumberdp == 3:
-			mdp=2
-			ddp=1
-		elif randomnumberdp == 4:
-			adp=2
-			mdp=1
-
-		drafts=func_create_players.rn3(gk =gkdp, defe =ddp, mid =mdp, ata =adp, exp =10, maxskill =20, skill =20, skillpeak =0, char =10, maxage=31, minskill=18,weighted=0,minage=27)
-		os.system('clear')
-		print ("P    Name                S  MS C  E  A  ")
-		for p in range(len(drafts)):
-			for r in range(len(drafts[p])):
-				print(drafts[p][r], end=' ')
-			print()
-
-		while True:
-		#	teamreport1(createteam=createteam,printto="yp")
-			moveupdraft = input ("Draft alert - A Desprate team are offering you one of their 3 star players in exchange for all your draft picks (y/n/r(report))?(above are the options to choose from)... ")
-			if moveupdraft =="y" or moveupdraft =="n":
-				break
-			elif moveupdraft =="r":
-				teamreport1(createteam=createteam,printto="yp")
-				print ("P    Name                S  MS C  E  A  ")
-				for p in range(len(drafts)):
-					for r in range(len(drafts[p])):
-						print(drafts[p][r], end=' ')
-					print()
-
-			else:
-				print ("Invalid option try again... (y/n)")
-	
-	
-		rngkd=0
-		rngkd=random.randint(2,4)
-		rnded=random.randint(2,4)
-		rnmid=random.randint(2,4)
-		rnstd=random.randint(2,4)
-
-
-		print ("Here is your current team")
-		for i in range(len(createteam)):
-		    for j in range(len(createteam[i])):
-		        print(createteam[i][j], end=' ')
-		    print()
-		print ("")
-		print ( "Key")
-		print ("========")
-		print ("P=Position")
-		print ("S=Skill")
-		print ("MS=Max Skill")
-		print ("C=Character")
-		print ("E=Experience")
-		print ("A=Age")
-		print ("")
-
-	
-		################################################
-
-		if moveupdraft == "y":
-			createteam,drafts=draft(myteam=createteam, draft=drafts, typeofdraft="Player swap")
+	#draftfa=func_create_players.rn3(gk =rngkd, defe =rnded, mid =rnmid, ata =rnstd, exp =5, maxskill =20, skill =18, skillpeak =0, char =8, maxage=32, minskill=10,weighted=0,minage=28,minrchar=3)
+	#createteam,draftreturned=draft(myteam=createteam, draft=draftfa, typeofdraft="Free Agency")
+	numofloops=0
+	while firstroundthisyear > 0:
+		#draft1=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =20, skill =14, skillpeak =0, char =10, maxage=22, minskill=10,weighted=0,minage=19,minrchar=6)
+		# adding logic to reuse the already offered draft players rather than a new bunch of players
+		if numofloops >= 1:
+			createteam,draftreturned=draft(myteam=createteam, draft=draftreturned, typeofdraft="First round of Draft")
+			numofloops=numofloops+1
 		else:
-			draftfa=func_create_players.rn3(gk =rngkd, defe =rnded, mid =rnmid, ata =rnstd, exp =5, maxskill =20, skill =18, skillpeak =0, char =8, maxage=32, minskill=10,weighted=0,minage=26)
-			createteam,draftreturned=draft(myteam=createteam, draft=draftfa, typeofdraft="Free Agency")
-			draft1=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =2, maxskill =20, skill =14, skillpeak =0, char =10, maxage=22, minskill=10,weighted=0,minage=19)
 			createteam,draftreturned=draft(myteam=createteam, draft=draft1, typeofdraft="First round of Draft")
-			draft2=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =10, skillpeak =0, char =10, maxage=21, minskill=7,weighted=0,minage=19)
+			numofloops=numofloops+1
+		firstroundthisyear=int(firstroundthisyear)-1
+		os.system('clear')
+		draftpicks(firstroundthisyear=firstroundthisyear,secondroundthisyear=secondroundthisyear,thirdoroundthisyear=thirdoroundthisyear)
+		input("Press a button to continue\n")
+	numofloops=0
+	while secondroundthisyear > 0:
+		draft2=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =12, skillpeak =0, char =10, maxage=21, minskill=9,weighted=0,minage=19,minrchar=6)
+		if numofloops >= 1:
+			createteam,draftreturned=draft(myteam=createteam, draft=draftreturned, typeofdraft="Second round of Draft")
+			numofloops=numofloops+1
+		else:
 			createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Second round of Draft")
-			draft2=func_create_players.rn3(gk =3, defe =5, mid =5, ata =4, exp =0, maxskill =15, skill =9, skillpeak =0, char =10, maxage=20, minskill=5,weighted=0,minage=18)
-			createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Third round of Draft")
-	
-	else:
-		rngkd=random.randint(2,4)
-		rnded=random.randint(2,4)
-		rnmid=random.randint(2,4)
-		rnstd=random.randint(2,4)
-		rngkdfr=random.randint(2,4)
-		rndedfr=random.randint(3,5)
-		rnmidfr=random.randint(3,5)
-		rnstdfr=random.randint(2,4)
+			numofloops=numofloops+1
+		secondroundthisyear=int(secondroundthisyear)-1
+		os.system('clear')
+		draftpicks(firstroundthisyear=firstroundthisyear,secondroundthisyear=secondroundthisyear,thirdoroundthisyear=thirdoroundthisyear)
+		input("Press a button to continue\n")
+	numofloops=0
+	while thirdoroundthisyear > 0:
+		draft3=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =12, skillpeak =0, char =10, maxage=20, minskill=7,weighted=0,minage=18,minrchar=6)
+
+		if numofloops >= 1:
+			createteam,draftreturned=draft(myteam=createteam, draft=draftreturned, typeofdraft="Third round of Draft")
+			numofloops=numofloops+1
+		else:
+			createteam,draftreturned=draft(myteam=createteam, draft=draft3, typeofdraft="Third round of Draft")
+			numofloops=numofloops+1
+		thirdoroundthisyear=int(thirdoroundthisyear)-1
+		os.system('clear')
+		draftpicks(firstroundthisyear=firstroundthisyear,secondroundthisyear=secondroundthisyear,thirdoroundthisyear=thirdoroundthisyear)
+		input("Press a button to continue\n")
 
 
-		draftfa=func_create_players.rn3(gk =rngkd, defe =rnded, mid=rnmid, ata=rnstd, exp =15, maxskill =20, skill =16, skillpeak =0, char =8, maxage=32, minskill=10,weighted=0,minage=30)
-		createteam,draftreturned=draft(myteam=createteam, draft=draftfa, typeofdraft="Free Agency")
+	# rebalance end of season numbers around so next season we have some players to pick from :)
+	firstroundthisyear=firstroundnextyear
+	secondroundthisyear=secondroundnextyear
+	thirdoroundthisyear=thirdoroundnextyear
 
-		if bseasonoutcome == 1:
-			draft1=func_create_players.rn3(gk =rngkdfr, defe =rndedfr, mid =rnmidfr, ata =rnstdfr, exp =2, maxskill =20, skill =13, skillpeak =0, char =8, maxage=22, minskill=10,weighted=0,minage=20)
-			createteam,draftreturned=draft(myteam=createteam, draft=draft1, typeofdraft="First round of Draft")
-		else:	
-			draft1=func_create_players.rn3(gk =rngkdfr, defe =rndedfr, mid =rnmidfr, ata =rnstdfr, exp =2, maxskill =20, skill =14, skillpeak =0, char =10, maxage=22, minskill=10,weighted=0,minage=19)
-			createteam,draftreturned=draft(myteam=createteam, draft=draft1, typeofdraft="First round of Draft")
-
-		if randomnumberd == 2 :
-
-			os.system('clear')
-			print ("P    Name                S  MS C  E  A  ")
-			for p in range(len(draftreturned)):
-				for r in range(len(draftreturned[p])):
-					print(draftreturned[p][r], end=' ')
-				print()
-			moveupdraft = input ("Draft alert - A Division rival have  offered another place in the first round in exchange for your second & third pick,do you accept(y/n)?...(above is the people left in the first round of the draft) ?\n ")
-			
-			if moveupdraft == "y":
-				createteam,draftreturned=draft(myteam=createteam, draft=draftreturned, typeofdraft="First round of Draft -2nd pick")
-			else:
-				draft2=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =10, skillpeak =0, char =10, maxage=21, minskill=7,weighted=0,minage=19)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Second round of Draft")
-				
-				draft2=func_create_players.rn3(gk =3, defe =5, mid =5, ata =4, exp =0, maxskill =15, skill =9, skillpeak =0, char =10, maxage=20, minskill=7,weighted=0,minage=18)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Third round of Draft")
-
-
-		if randomnumberd == 3 :
-			randomnumberdr=random.randint (1,2)
-			randomnumberdr1=random.randint (1,3)
-			randomnumberdr2=random.randint (1,3)
-			randomnumberdr3=random.randint (1,3)
-			draftmp=func_create_players.rn3(gk =randomnumberdr, defe =randomnumberdr1, mid =randomnumberdr2, ata =randomnumberdr3, exp =10, maxskill =20, skill =18, skillpeak =0, char =8, maxage=33, minskill=11,weighted=0,minage=26)
-
-			os.system('clear')
-			print ("P    Name                S  MS C  E  A  ")
-			for p in range(len(draftmp)):
-				for r in range(len(draftmp[p])):
- 					print(draftmp[p][r], end=' ')
-				print()
-			while True:
-				moveupdraft = input ("Draft alert - A Division rival has offered you 1 of his squad in exchange for your second and third round picks,do you accept(y/n)?...(above are the people avaliable) ?\n ")
-				if moveupdraft =="y" or moveupdraft =="n":
-					break
-				else:			
-					print ("Invalid option try again... (y/n)")
-
-			if moveupdraft == "y":
-				createteam,draftreturned=draft(myteam=createteam, draft=draftmp, typeofdraft="Player swap for draft picks ")
-			else:
-				draft2=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =10, skillpeak =0, char =10, maxage=21, minskill=7,weighted=0,minage=19)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Second round of Draft")
-
-				draft2=func_create_players.rn3(gk =3, defe =5, mid =5, ata =4, exp =0, maxskill =15, skill =9, skillpeak =0, char =10, maxage=20, minskill=7,weighted=0,minage=18)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Third round of Draft")
-
-
-		if randomnumberd == 4 :
-				draft2=func_create_players.rn3(gk =2, defe =5, mid =5, ata =4, exp =1, maxskill =15, skill =10, skillpeak =0, char =10, maxage=21, minskill=7,weighted=0,minage=19)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Second round of Draft")
-
-				draft2=func_create_players.rn3(gk =3, defe =5, mid =5, ata =4, exp =0, maxskill =15, skill =9, skillpeak =0, char =10, maxage=20, minskill=7,weighted=0,minage=18)
-				createteam,draftreturned=draft(myteam=createteam, draft=draft2, typeofdraft="Third round of Draft")
-
-
-
+	firstroundnextyear=firstroundthisyear
+	secondroundnextyear=secondroundthisyear
+	thirdoroundnextyear=thirdoroundthisyear
 	
 
 

@@ -42,6 +42,11 @@ def bat(ourgk,oppgk,ourdef,oppdef,ourmid,oppmid,ourata,oppata,ourchar,oppchar,ou
 	randomnumber50=random.randint (1,10)
 	randomnumber501=random.randint (1,10)
 	randomnumber1=random.randint (1,10)
+
+	mylog.fmlog(detail=str(("rn ", randomnumber)), verbosity=1)
+	mylog.fmlog(detail=str(("rn50 ", randomnumber50)), verbosity=1)
+	mylog.fmlog(detail=str(("rn501 ", randomnumber501)), verbosity=1)
+	mylog.fmlog(detail=str(("rn1 ", randomnumber1)), verbosity=1)
 	
 	
 #	print ("rn=",randomnumber)
@@ -53,12 +58,13 @@ def bat(ourgk,oppgk,ourdef,oppdef,ourmid,oppmid,ourata,oppata,ourchar,oppchar,ou
 	oppattackscore=int(((oppdef*4)+(oppmid*8)+(oppata*6)+(oppexp/7)+(oppchar/4))/4.5)
 	ourdefscore=int(((ourgk*4)+(ourdef*8)+(ourmid*4)+(ourata*2)+(ourexp/7)+(ourchar/4))/4.5)
 	oppdefscore=int(((oppgk*4)+(oppdef*8)+(oppmid*4)+(oppata*2)+(oppexp/7)+(oppchar/4))/4.5)
- 
+
 	print ("Our Def Team score",ourdefscore)
 	print ("Our Ata Team score",ourattackscore)
 	print ("The Def Opposition Team score",oppdefscore)
 	print ("The Ata Opposition Team score",oppattackscore)
-	print ("Lets go play a game")
+	print ("\n")
+	#print ("\nLets go play a game")
 
 # our goals tally
 	ourcomaprescore=0
@@ -69,7 +75,7 @@ def bat(ourgk,oppgk,ourdef,oppdef,ourmid,oppmid,ourata,oppata,ourchar,oppchar,ou
 			ourgoals=("5")
 		elif randomnumber1 < 4:
 			ourgoals=("4")
-		elif randomnumber1 <= 6:
+		elif randomnumber1 <= 7:
 			ourgoals=("3")
 		elif randomnumber1 <= 8:
 			ourgoals=("2")
@@ -83,12 +89,14 @@ def bat(ourgk,oppgk,ourdef,oppdef,ourmid,oppmid,ourata,oppata,ourchar,oppchar,ou
 
 	elif ourcomparescore > 25:
 
-		if randomnumber1 <= 7:
+		if randomnumber1 <= 4:
+			ourgoals=("4")
+		elif randomnumber1 <= 7:
 			ourgoals=("3")
 		elif randomnumber1 < 10:
 			ourgoals=("2")
 		else:
-			if randomnumber >5:
+			if randomnumber >3:
 				ourgoals=("1")
 			else:
 				ourgoals=("0")
@@ -96,12 +104,12 @@ def bat(ourgk,oppgk,ourdef,oppdef,ourmid,oppmid,ourata,oppata,ourchar,oppchar,ou
 
 	elif ourcomparescore > 10:
 
-		if randomnumber1 <= 4:
+		if randomnumber1 <= 6:
 			ourgoals=("3")
-		elif randomnumber1 < 8:
+		elif randomnumber1 < 9:
 			ourgoals=("2")
 		else:
-			if randomnumber >5:
+			if randomnumber >6:
 				ourgoals=("1")
 			else:
 				ourgoals=("0")

@@ -1,15 +1,23 @@
 #!/usr/bin/python3.4
 
 import random
+import  mylog
+import pdb
 
 
-def changes(ourteam,playoffexppoints):
+#mylog.fmlog(detail=str(("GoalKeeper Score ", gk)), verbosity=1)
+
+
+def changes(ourteam,playoffexppoints,seasonnumber):
 	
+	mylog.fmlog(detail=str(("playoffexppoints just begening of script ", playoffexppoints)), verbosity=12)
 #	playoffexppoints=0
 	incrmentalnum=-1
-	veryold=random.randint (32,36)
-	verygoodchar=random.randint (7,9)
-	verypoorchar=random.randint (1,4)
+	veryold=random.randint (30,34)
+	verygoodchar=random.randint (8,9)
+	#was 1,4
+	verypoorchar=random.randint (5,7)
+	averagechar=random.randint (7,8)
 	changes=""
 	changesp=""
 	changesn=""
@@ -22,6 +30,7 @@ def changes(ourteam,playoffexppoints):
 ##### loop through players and work out the + and - scores based on char & age (+ maybe a few more later)
 		incrmentalnum=1+incrmentalnum
 		singlerecord = ourteam[incrmentalnum]
+#		mylog.fmlog(detail=str(("Player before end of season ",seasonnumber ,singlerecord)), verbosity=13)
 
 		ageforskills=int(singlerecord[7])
 		charforskills=int(singlerecord[5])
@@ -50,11 +59,11 @@ def changes(ourteam,playoffexppoints):
 				pluspoints=pluspoints+4
 		elif ageforskills < 24:
 			if charforskills >= verygoodchar:
-				pluspoints=pluspoints+5
+				pluspoints=pluspoints+4
 			elif charforskills <= verypoorchar:
 				pluspoints=pluspoints+1
 			else:
-				pluspoints=pluspoints+3
+				pluspoints=pluspoints+2
 		else:
 			if charforskills >= verygoodchar:
 				pluspoints=pluspoints+2
@@ -65,16 +74,18 @@ def changes(ourteam,playoffexppoints):
 		# added a degree of luck for a young player to boost skill + 2
 		if (ageforskills <= 24) and (randomnumberlskillincrease >= 3) and (charforskills > 9) :
 			pluspoints=pluspoints+15
-		if (ageforskills <= 24) and (randomnumberlskillincrease >= 3) and (charforskills > 7) :
+		if (ageforskills <= 24) and (randomnumberlskillincrease >= 3) and (charforskills > 8) :
 			pluspoints=pluspoints+7
-		if (ageforskills < 24) and (veryrandomnumberlskillincrease > 23) and (charforskills > 7) :
+		if (ageforskills < 24) and (veryrandomnumberlskillincrease > 24) and (charforskills > 7) :
 			pluspoints=pluspoints+7
-		if ageforskills > 24 and (veryrandomnumberlskillincrease > 21):
+		if ageforskills > 24 and (veryrandomnumberlskillincrease > 22):
 			negativepoints=negativepoints+5
-		if ageforskills > 24 and (veryrandomnumberlskillincrease < 7):
+		if ageforskills > 24 and (veryrandomnumberlskillincrease < 8):
 			negativepoints=negativepoints+3
-
-
+		randomloss=random.randint (6,9)
+		if charforskills <= averagechar:
+			negativepoints=negativepoints+int(randomloss)
+			
 
 
 
@@ -101,9 +112,9 @@ def changes(ourteam,playoffexppoints):
 			maxskillpoints=maxskillpoints+0
 		if playercurrentskill > 15:
 			maxskillpoints=maxskillpoints+1
-		if playersexperience > 6:
+		if playersexperience > 10:
 			maxskillpoints=maxskillpoints+2
-		elif playersexperience > 3:
+		elif playersexperience > 5:
 			maxskillpoints=maxskillpoints+1
 		else:
 			maxskillpoints=maxskillpoints+0
@@ -199,6 +210,7 @@ def changes(ourteam,playoffexppoints):
 			newrecordms=""
                         #newrecordms= positionms+" "+namems+" "+"1"+" "+str(currentms+1)+" "+agems+"\n"
 			newrecordms= positionms+" "+namems+" "+"+1"+" "+currentmspadding+" "+agems+"\n"
+			#pdb.set_trace()
 			changesms=changesms+newrecordms
 			pointsadded="1"
 
@@ -211,9 +223,13 @@ def changes(ourteam,playoffexppoints):
 		age='{}' .format (int(age)+1)
 		singlerecord[7]="{:<2}".format(age)
 
+		mylog.fmlog(detail=str(("playoffexppoints just before add ", playoffexppoints)), verbosity=12)
 		experience=singlerecord[6]
 		experience='{}' .format (int(experience)+playoffexppoints)
 		singlerecord[6]="{:<2}".format(experience)
+		mylog.fmlog(detail=str(("Player at end of season ",seasonnumber, singlerecord)), verbosity=13)
+
+		
 
 		
 

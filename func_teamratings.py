@@ -178,9 +178,10 @@ def teams(gk,defe,mid,ata,createteam,printo):
 		print ("Total Team Experience",teamexp)
 
 	rating=int(teamage/incrmentalnum)
+	avgage=rating
 	#sr=scores(rating)
 	if printo != checkp :
-		print ("Average Age of team",rating)
+		print ("Average Age of team",avgage)
 		print ()
 
 	gkscore=gkfinalscore
@@ -210,5 +211,6 @@ def teams(gk,defe,mid,ata,createteam,printo):
 	mylog.fmlog(detail=str(("total def Score ", ourdefscore)), verbosity=1)
 	print ("")
 	
-	return (gkscore,defscore,midscore,atascore,teamchar,rating)	
+	#return (gkscore,defscore,midscore,atascore,teamchar,rating,)	
+	return (gkscore,defscore,midscore,atascore,teamchar,teamexp,avgage)	
 
