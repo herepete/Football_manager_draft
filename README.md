@@ -29,7 +29,8 @@ Examples:
 3 3 is the bottom right square
 
 
-```>> Welcome to TicTacToe! <<
+```
+>> Welcome to TicTacToe! <<
 [ ][ ][ ]
 [ ][ ][ ]
 [ ][ ][ ]
