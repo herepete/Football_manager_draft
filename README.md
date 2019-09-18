@@ -16,6 +16,13 @@ allow inital team selection to be based on scenarios "an old team" / "a bad team
 make better use of max skill as at the moment it not doing much
 move up and down the draft board (maybe determined on how good your previous season was)
 
+# tic-tac-toe
+Tic-tac-toe
+
+### Run game in P1 vs P2 mode
+``./runner.py``
+
+### Run game in P1 vs AI mode
 ``./runner.py ai``
 
 ### Enter a position
@@ -27,7 +34,6 @@ Examples:
 2 2 is the middle square
 
 3 3 is the bottom right square
-
 
 ```
 >> Welcome to TicTacToe! <<
@@ -41,5 +47,6 @@ Examples:
 [ ][ ][ ]
 [ ][X][ ]
 [ ][ ][ ]
-'''
+```
+
 
